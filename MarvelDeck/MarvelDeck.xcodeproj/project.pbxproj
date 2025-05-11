@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		63A925EA2DD0FD5100CEAB18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A925D12DD0FD5000CEAB18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A925D82DD0FD5000CEAB18;
+			remoteInfo = MarvelDeck;
+		};
+		63A925F42DD0FD5100CEAB18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A925D12DD0FD5000CEAB18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A925D82DD0FD5000CEAB18;
+			remoteInfo = MarvelDeck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63A925D92DD0FD5000CEAB18 /* MarvelDeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A925E92DD0FD5100CEAB18 /* MarvelDeckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelDeckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A925F32DD0FD5100CEAB18 /* MarvelDeckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelDeckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		63A925DB2DD0FD5000CEAB18 /* MarvelDeck */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MarvelDeck;
+			sourceTree = "<group>";
+		};
+		63A925EC2DD0FD5100CEAB18 /* MarvelDeckTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MarvelDeckTests;
+			sourceTree = "<group>";
+		};
+		63A925F62DD0FD5100CEAB18 /* MarvelDeckUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MarvelDeckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63A925D62DD0FD5000CEAB18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A925E62DD0FD5100CEAB18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A925F02DD0FD5100CEAB18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63A925D02DD0FD5000CEAB18 = {
+			isa = PBXGroup;
+			children = (
+				63A925DB2DD0FD5000CEAB18 /* MarvelDeck */,
+				63A925EC2DD0FD5100CEAB18 /* MarvelDeckTests */,
+				63A925F62DD0FD5100CEAB18 /* MarvelDeckUITests */,
+				63A925DA2DD0FD5000CEAB18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63A925DA2DD0FD5000CEAB18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63A925D92DD0FD5000CEAB18 /* MarvelDeck.app */,
+				63A925E92DD0FD5100CEAB18 /* MarvelDeckTests.xctest */,
+				63A925F32DD0FD5100CEAB18 /* MarvelDeckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63A925D82DD0FD5000CEAB18 /* MarvelDeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A925FD2DD0FD5100CEAB18 /* Build configuration list for PBXNativeTarget "MarvelDeck" */;
+			buildPhases = (
+				63A925D52DD0FD5000CEAB18 /* Sources */,
+				63A925D62DD0FD5000CEAB18 /* Frameworks */,
+				63A925D72DD0FD5000CEAB18 /* Resources */,
+				63A926072DD0FDCC00CEAB18 /* Swiftlint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				63A925DB2DD0FD5000CEAB18 /* MarvelDeck */,
+			);
+			name = MarvelDeck;
+			packageProductDependencies = (
+			);
+			productName = MarvelDeck;
+			productReference = 63A925D92DD0FD5000CEAB18 /* MarvelDeck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63A925E82DD0FD5100CEAB18 /* MarvelDeckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A926002DD0FD5100CEAB18 /* Build configuration list for PBXNativeTarget "MarvelDeckTests" */;
+			buildPhases = (
+				63A925E52DD0FD5100CEAB18 /* Sources */,
+				63A925E62DD0FD5100CEAB18 /* Frameworks */,
+				63A925E72DD0FD5100CEAB18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63A925EB2DD0FD5100CEAB18 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				63A925EC2DD0FD5100CEAB18 /* MarvelDeckTests */,
+			);
+			name = MarvelDeckTests;
+			packageProductDependencies = (
+			);
+			productName = MarvelDeckTests;
+			productReference = 63A925E92DD0FD5100CEAB18 /* MarvelDeckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63A925F22DD0FD5100CEAB18 /* MarvelDeckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A926032DD0FD5100CEAB18 /* Build configuration list for PBXNativeTarget "MarvelDeckUITests" */;
+			buildPhases = (
+				63A925EF2DD0FD5100CEAB18 /* Sources */,
+				63A925F02DD0FD5100CEAB18 /* Frameworks */,
+				63A925F12DD0FD5100CEAB18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63A925F52DD0FD5100CEAB18 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				63A925F62DD0FD5100CEAB18 /* MarvelDeckUITests */,
+			);
+			name = MarvelDeckUITests;
+			packageProductDependencies = (
+			);
+			productName = MarvelDeckUITests;
+			productReference = 63A925F32DD0FD5100CEAB18 /* MarvelDeckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63A925D12DD0FD5000CEAB18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					63A925D82DD0FD5000CEAB18 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					63A925E82DD0FD5100CEAB18 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 63A925D82DD0FD5000CEAB18;
+					};
+					63A925F22DD0FD5100CEAB18 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 63A925D82DD0FD5000CEAB18;
+					};
+				};
+			};
+			buildConfigurationList = 63A925D42DD0FD5000CEAB18 /* Build configuration list for PBXProject "MarvelDeck" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63A925D02DD0FD5000CEAB18;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				63A926062DD0FDB200CEAB18 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 63A925DA2DD0FD5000CEAB18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63A925D82DD0FD5000CEAB18 /* MarvelDeck */,
+				63A925E82DD0FD5100CEAB18 /* MarvelDeckTests */,
+				63A925F22DD0FD5100CEAB18 /* MarvelDeckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63A925D72DD0FD5000CEAB18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A925E72DD0FD5100CEAB18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A925F12DD0FD5100CEAB18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63A926072DD0FDCC00CEAB18 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SWIFT_PACKAGE_DIR=\"${BUILD_DIR%Build/*}SourcePackages/artifacts\"\nSWIFTLINT_CMD=$(ls \"$SWIFT_PACKAGE_DIR\"/swiftlintplugins/SwiftLintBinary/SwiftLintBinary.artifactbundle/swiftlint-*-macos/bin/swiftlint | head -n 1)\n\nif test -f \"$SWIFTLINT_CMD\" 2>&1\nthen\n    \"$SWIFTLINT_CMD\"\nelse\n    echo \"warning: `swiftlint` command not found - See https://github.com/realm/SwiftLint#installation for installation instructions.\"\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63A925D52DD0FD5000CEAB18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A925E52DD0FD5100CEAB18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A925EF2DD0FD5100CEAB18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63A925EB2DD0FD5100CEAB18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63A925D82DD0FD5000CEAB18 /* MarvelDeck */;
+			targetProxy = 63A925EA2DD0FD5100CEAB18 /* PBXContainerItemProxy */;
+		};
+		63A925F52DD0FD5100CEAB18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63A925D82DD0FD5000CEAB18 /* MarvelDeck */;
+			targetProxy = 63A925F42DD0FD5100CEAB18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63A925FB2DD0FD5100CEAB18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63A925FC2DD0FD5100CEAB18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63A925FE2DD0FD5100CEAB18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarvelDeck/Preview Content\"";
+				DEVELOPMENT_TEAM = 2KLV3F3TB7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meganwiemer.MarvelDeck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63A925FF2DD0FD5100CEAB18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarvelDeck/Preview Content\"";
+				DEVELOPMENT_TEAM = 2KLV3F3TB7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meganwiemer.MarvelDeck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63A926012DD0FD5100CEAB18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KLV3F3TB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meganwiemer.MarvelDeckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarvelDeck.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarvelDeck";
+			};
+			name = Debug;
+		};
+		63A926022DD0FD5100CEAB18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KLV3F3TB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meganwiemer.MarvelDeckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarvelDeck.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarvelDeck";
+			};
+			name = Release;
+		};
+		63A926042DD0FD5100CEAB18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KLV3F3TB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meganwiemer.MarvelDeckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarvelDeck;
+			};
+			name = Debug;
+		};
+		63A926052DD0FD5100CEAB18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KLV3F3TB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meganwiemer.MarvelDeckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarvelDeck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63A925D42DD0FD5000CEAB18 /* Build configuration list for PBXProject "MarvelDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A925FB2DD0FD5100CEAB18 /* Debug */,
+				63A925FC2DD0FD5100CEAB18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A925FD2DD0FD5100CEAB18 /* Build configuration list for PBXNativeTarget "MarvelDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A925FE2DD0FD5100CEAB18 /* Debug */,
+				63A925FF2DD0FD5100CEAB18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A926002DD0FD5100CEAB18 /* Build configuration list for PBXNativeTarget "MarvelDeckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A926012DD0FD5100CEAB18 /* Debug */,
+				63A926022DD0FD5100CEAB18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A926032DD0FD5100CEAB18 /* Build configuration list for PBXNativeTarget "MarvelDeckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A926042DD0FD5100CEAB18 /* Debug */,
+				63A926052DD0FD5100CEAB18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		63A926062DD0FDB200CEAB18 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.59.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 63A925D12DD0FD5000CEAB18 /* Project object */;
+}
