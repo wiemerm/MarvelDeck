@@ -16,10 +16,13 @@ enum CharactersEndpoint: Endpoint {
     }
 
     var queryItems: [URLQueryItem] {
-        let timestamp = "\(Int(Date().timeIntervalSince1970))"
-        let apiKey = EnvironmentVariables.publicKey
-        let privateKey = EnvironmentVariables.privateKey
-        let hash = (timestamp + privateKey + apiKey).md5()
+//        let timestamp = "\(Int(Date().timeIntervalSince1970))"
+//        let apiKey = EnvironmentVariables.publicKey
+//        let privateKey = EnvironmentVariables.privateKey
+//        let hash = (timestamp + privateKey + apiKey).md5()
+        let timestamp = "1670913383902"
+        let apiKey = "edc9531ea872c74a2855ed93a5903229"
+        let hash = "bbb581dcf34e4752243b361daa960fb1"
 
         return [
             URLQueryItem(name: "ts", value: timestamp),

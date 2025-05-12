@@ -18,11 +18,10 @@ protocol Endpoint {
 
 extension Endpoint {
     var baseUrl: String {
-        EnvironmentVariables.baseURL ?? ""
+        EnvironmentVariables.baseURL
     }
 
     var scheme: String {
         "https"
     }
 }
-

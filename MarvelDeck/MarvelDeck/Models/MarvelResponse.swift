@@ -11,13 +11,13 @@ struct MarvelResponse: Codable {
     let code: Int
     let status: String
     let copyright: String
-    let data: MarvelDataContainer?
+    let data: MarvelDataContainer
 }
 
 struct MarvelDataContainer: Codable {
-    let offset: Int?
-    let limit: Int?
-    let total: Int?
-    let count: Int?
+    let offset: Int
+    let limit: Int
+    let total: Int
+    let count: Int
     let results: [ComicCharacter]
 }

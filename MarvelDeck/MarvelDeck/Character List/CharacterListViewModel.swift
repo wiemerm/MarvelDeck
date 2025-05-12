@@ -10,14 +10,18 @@ import SwiftUI
 
 @Observable
 class CharacterListViewModel {
+    var characters = [ComicCharacter]()
+
     init() {
-        fetchCharcters()
     }
 
-    private func fetchCharcters() {
-        Task { @MainActor in
-            // TODO: Get a service layer in
-            let characterResponse: MarvelResponse? = try? await APIClient().fetch(CharactersEndpoint.characters)
+    @MainActor
+    func fetchCharcters() async {
+        do {
+            async let response: MarvelResponse = try await APIClient().fetch(CharactersEndpoint.characters)
+            characters = try await response.data.results
+        } catch {
+            print("!!!!! Caught an error: \(error)")
         }
     }
 }

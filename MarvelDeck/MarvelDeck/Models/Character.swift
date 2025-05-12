@@ -17,8 +17,7 @@ struct Thumbnail: Codable {
     }
 }
 
-struct ComicCharacter: Codable {
-
+struct ComicCharacter: Codable, Identifiable {
     let id: Int
     let name: String
     let description: String
@@ -26,5 +25,10 @@ struct ComicCharacter: Codable {
     let resourceURI: String?
     let comics: ResourceContainer
     let events: ResourceContainer
+
+    var thumbnailURL: URL? {
+        guard let thumbnail else { return nil }
+        return URL(string: "\(thumbnail.path).\(thumbnail.fileExtension)")
+    }
 
 }

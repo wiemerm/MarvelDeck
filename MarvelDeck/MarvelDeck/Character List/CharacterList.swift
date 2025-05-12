@@ -10,7 +10,6 @@ import SwiftUI
 
 struct CharacterList: View {
     @State var viewModel = CharacterListViewModel()
-    let items = Array(1...100)
 
     let columns: [GridItem] = Array(repeating: GridItem(.flexible(), spacing: 1), count: 3)
 
@@ -21,9 +20,16 @@ struct CharacterList: View {
                 let itemWidth = abs(geometry.size.width - totalSpacing) / 3
 
                 LazyVGrid(columns: columns, spacing: 1) {
-                    ForEach(items, id: \.self) { item in
-                        CharacterGridItem(name: "\(item)", itemWidth: itemWidth)
+                    ForEach(viewModel.characters) { character in
+                        CharacterGridItem(
+                            name: character.name,
+                            thumbnailURL: character.thumbnailURL,
+                            itemWidth: itemWidth
+                        )
                     }
+                }
+                .task {
+                    await viewModel.fetchCharcters()
                 }
             }
         }
