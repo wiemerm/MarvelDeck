@@ -9,14 +9,30 @@ import SwiftUI
 
 struct CharacterDetailsView: View {
     let character: ComicCharacter
+    let columns: [GridItem] = Array(repeating: GridItem(.flexible(), spacing: 4), count: 3)
+
+    @State var selectedTab = 0
 
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .center) {
             CharacterHeaderView()
                 .padding()
 
-            Spacer()
+            Segmented()
+
+            ScrollView {
+                LazyVGrid(columns: columns, spacing: 20) {
+                    ForEach(Array(1...20), id: \.self) { character in
+                        Color.blue.overlay {
+                            Text("\(character)")
+                        }
+                        .frame(width: 131, height: 130)
+                    }
+                }
+            }
+
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .background(Color(.systemGray6))
         .environment(\.comicCharacter, character)
     }

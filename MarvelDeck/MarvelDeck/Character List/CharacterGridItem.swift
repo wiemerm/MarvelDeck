@@ -18,7 +18,7 @@ struct CharacterGridItem: View {
                 .frame(width: itemWidth, height: itemWidth)
         } placeholder: {
             Rectangle()
-                .fill(Color(.systemGray6))
+                .fill(Color.systemGray6)
                 .frame(width: itemWidth, height: itemWidth)
         }
         .overlay(
