@@ -1,0 +1,10 @@
+//
+//  Configuration.xcconfig
+//  MarvelDeck
+//
+//  Created by Megan Wiemer on 5/12/25.
+//
+
+PUBLIC_KEY = 685c31eed4f5760eb09a15cc3b0a077b
+PRIVATE_KEY = aae115c67c4a1a44dddcfdb50b390314cfe5c894
+BASE_URL = gateway.marvel.com
