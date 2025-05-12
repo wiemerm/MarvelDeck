@@ -21,11 +21,16 @@ struct CharacterList: View {
 
                 LazyVGrid(columns: columns, spacing: 1) {
                     ForEach(viewModel.characters) { character in
-                        CharacterGridItem(
-                            name: character.name,
-                            thumbnailURL: character.thumbnailURL,
-                            itemWidth: itemWidth
-                        )
+                        NavigationLink {
+                            CharacterDetailsView(character: character)
+                        } label: {
+                            CharacterGridItem(
+                                name: character.name,
+                                thumbnailURL: character.thumbnailURL,
+                                itemWidth: itemWidth
+                            )
+                        }
+
                     }
                 }
                 .task {
@@ -41,5 +46,7 @@ struct CharacterList: View {
 }
 
 #Preview {
-    CharacterList()
+    NavigationStack {
+        CharacterList()
+    }
 }

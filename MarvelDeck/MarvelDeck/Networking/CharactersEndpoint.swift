@@ -10,9 +10,13 @@ import Foundation
 
 enum CharactersEndpoint: Endpoint {
     case characters
+    case character(id: Int)
 
     var path: String {
-        "/v1/public/characters"
+        switch self {
+        case .characters:        "/v1/public/characters"
+        case .character(let id): "/v1/public/characters/\(id)"
+        }
     }
 
     var queryItems: [URLQueryItem] {

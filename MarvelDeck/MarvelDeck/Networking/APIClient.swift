@@ -19,19 +19,18 @@ struct APIClient: APISendable {
 
         do {
             // TODO: Commented out while using json file
-//            let (data, _) = try await URLSession.shared.data(for: request)
-//            let decoder = JSONDecoder()
-//            try decoder.decode(T.self, from: data)
+            let (data, _) = try await URLSession.shared.data(for: request)
+            let decoder = JSONDecoder()
+            return try decoder.decode(T.self, from: data)
 
-            guard let data: MarvelResponse? = Bundle.main.load(json: "characters") else {
-                throw APIError.decodingFailed
-            }
-
-            guard let response = data as? T else {
-                throw APIError.decodingFailed
-            }
-
-            return response
+//            guard let data: MarvelResponse? = Bundle.main.load(json: "characters") else {
+//                throw APIError.decodingFailed
+//            }
+//            guard let response = data as? T else {
+//                throw APIError.decodingFailed
+//            }
+//
+//            return response
 
         } catch {
             throw APIError.decodingFailed

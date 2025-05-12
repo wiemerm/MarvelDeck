@@ -15,3 +15,14 @@ struct MarvelDeckApp: App {
         }
     }
 }
+
+struct ComicCharacterEnvironmentKey: EnvironmentKey {
+    nonisolated(unsafe) static var defaultValue: ComicCharacter? = nil
+}
+
+extension EnvironmentValues {
+    var comicCharacter: ComicCharacter? {
+        get { self[ComicCharacterEnvironmentKey.self] }
+        set { self[ComicCharacterEnvironmentKey.self] = newValue }
+    }
+}
