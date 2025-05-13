@@ -21,7 +21,7 @@ struct CharacterList: View {
                 LazyVGrid(columns: columns, spacing: 1) {
                     ForEach(viewModel.characters) { character in
                         NavigationLink {
-                            Text("Hello, \(character.name)")
+                            CharacterDetailView(character: character)
                         } label: {
                             CharacterGridItem(
                                 name: character.name,

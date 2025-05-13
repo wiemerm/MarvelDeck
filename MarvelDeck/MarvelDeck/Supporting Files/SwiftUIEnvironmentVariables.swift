@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct ComicCharacterEnvironmentKey: EnvironmentKey {
-    static var defaultValue: String? = nil
+    static var defaultValue: ComicCharacter? = nil
 }
 
 extension EnvironmentValues {
-    var comicCharacter: String? {
+    var comicCharacter: ComicCharacter? {
         get { self[ComicCharacterEnvironmentKey.self] }
         set { self[ComicCharacterEnvironmentKey.self] = newValue }
     }
