@@ -11,11 +11,15 @@ import Foundation
 enum CharactersEndpoint: Endpoint {
     case characters
     case character(id: Int)
+    case comics(characterID: Int)
+    case events(characterID: Int)
 
     var path: String {
         switch self {
-        case .characters:        "/v1/public/characters"
-        case .character(let id): "/v1/public/characters/\(id)"
+        case .characters:              "/v1/public/characters"
+        case .character(let id):       "/v1/public/characters/\(id)"
+        case .comics(let characterID): "/v1/public/characters/\(characterID)/comics"
+        case .events(let characterID): "/v1/public/characters/\(characterID)/events"
         }
     }
 
@@ -24,6 +28,14 @@ enum CharactersEndpoint: Endpoint {
 //        let apiKey = EnvironmentVariables.publicKey
 //        let privateKey = EnvironmentVariables.privateKey
 //        let hash = (timestamp + privateKey + apiKey).md5()
+
+        // Using CryptoKit
+//        let digest = Insecure.MD5.hash(data: Data(string.utf8))
+//
+//            return digest.map {
+//                String(format: "%02hhx", $0)
+//            }.joined()
+
         let timestamp = "1670913383902"
         let apiKey = "edc9531ea872c74a2855ed93a5903229"
         let hash = "bbb581dcf34e4752243b361daa960fb1"

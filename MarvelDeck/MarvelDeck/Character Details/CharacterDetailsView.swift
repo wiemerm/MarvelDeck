@@ -8,17 +8,20 @@
 import SwiftUI
 
 struct CharacterDetailsView: View {
-    let character: ComicCharacter
+    @Environment(\.dismiss) var dismiss
+    @State var selectedTab = 0
+    @State var viewModel: CharacterDetailViewModel
+
     let columns: [GridItem] = Array(repeating: GridItem(.flexible(), spacing: 4), count: 3)
 
-    @State var selectedTab = 0
-
     var body: some View {
-        VStack(alignment: .center) {
+        VStack(alignment: .center, spacing: 0) {
             CharacterHeaderView()
                 .padding()
 
             Segmented()
+                .padding(.bottom, 24)
+                .padding(.top, 48)
 
             ScrollView {
                 LazyVGrid(columns: columns, spacing: 20) {
@@ -26,15 +29,33 @@ struct CharacterDetailsView: View {
                         Color.blue.overlay {
                             Text("\(character)")
                         }
-                        .frame(width: 131, height: 130)
+                        .frame(
+                            minWidth: 120,
+                            maxWidth: 140,
+                            minHeight: 120,
+                            maxHeight: 140)
                     }
                 }
             }
 
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .background(Color(.systemGray6))
-        .environment(\.comicCharacter, character)
+        .navigationBarBackButtonHidden(true)
+        .toolbar {
+            ToolbarItem(placement: .topBarLeading) {
+                Button(action: {
+                    dismiss()
+                }, label: {
+                    Label("", systemImage: "chevron.backward")
+                })
+                .tint(.black)
+            }
+        }
+        .environment(\.comicCharacter, viewModel.character)
+    }
+
+    init(character: ComicCharacter) {
+        viewModel = CharacterDetailViewModel(character: character)
     }
 }
 
