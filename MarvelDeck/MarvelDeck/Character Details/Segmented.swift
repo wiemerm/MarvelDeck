@@ -7,20 +7,20 @@
 
 import SwiftUI
 
+typealias SegmentItem = (text: String, systemImageName: String)
+
 struct Segmented: View {
     @Binding var index: Int
+    let tabs: [SegmentItem]
 
     var body: some View {
         HStack(spacing: 48) {
-            SegmentButton(
-                isSelected: bindingIsSelected(for: 0, selectedIndex: $index),
-                systemImageName: "book.fill",
-                text: "48") // Use count of comics
-
-            SegmentButton(
-                isSelected: bindingIsSelected(for: 1, selectedIndex: $index),
-                systemImageName: "desktopcomputer",
-                text: "32") // Use count of events
+            ForEach(tabs.indices, id: \.self) { index in
+                SegmentButton(
+                    isSelected: bindingIsSelected(for: index, selectedIndex: $index),
+                    item: tabs[index]
+                )
+            }
         }
     }
 
@@ -38,20 +38,19 @@ struct Segmented: View {
 
 #Preview {
     @Previewable @State var index = 0
-    Segmented(index: $index)
+    Segmented(index: $index, tabs: [("book.fill", "42"), ("desktopcomputer", "36")])
 }
 
 struct SegmentButton: View {
     @Binding var isSelected: Bool
-    let systemImageName: String
-    let text: String
+    let item: SegmentItem
 
     var body: some View {
         VStack {
-            Image(systemName: systemImageName)
+            Image(systemName: item.systemImageName)
                 .foregroundStyle(isSelected ? .black: Color(.systemGray4))
 
-            Text(text)
+            Text(item.text)
                 .foregroundStyle(isSelected ? .black: Color(.systemGray4))
         }
         .frame(width: 84, height: 56)

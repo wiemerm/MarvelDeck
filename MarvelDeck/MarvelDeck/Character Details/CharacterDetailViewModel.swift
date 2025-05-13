@@ -13,6 +13,8 @@ class CharacterDetailViewModel: ObservableObject {
     @Published var selectedTab = 0
 
     let character: ComicCharacter
+    var comicCount: Int { comics.count }
+    var eventsCount: Int { events.count }
 
     private let characterService: CharacterServiceProtocol
     private var cancellables = Set<AnyCancellable>()
