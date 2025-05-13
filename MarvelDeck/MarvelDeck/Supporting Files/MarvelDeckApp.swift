@@ -2,7 +2,7 @@
 //  MarvelDeckApp.swift
 //  MarvelDeck
 //
-//  Created by Megan Wiemer on 5/11/25.
+//  Created by Megan Wiemer on 5/13/25.
 //
 
 import SwiftUI
@@ -13,16 +13,5 @@ struct MarvelDeckApp: App {
         WindowGroup {
             ContentView()
         }
-    }
-}
-
-struct ComicCharacterEnvironmentKey: EnvironmentKey {
-    nonisolated(unsafe) static var defaultValue: ComicCharacter? = nil
-}
-
-extension EnvironmentValues {
-    var comicCharacter: ComicCharacter? {
-        get { self[ComicCharacterEnvironmentKey.self] }
-        set { self[ComicCharacterEnvironmentKey.self] = newValue }
     }
 }

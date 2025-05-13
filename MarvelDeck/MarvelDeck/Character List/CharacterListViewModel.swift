@@ -2,26 +2,28 @@
 //  CharacterListViewModel.swift
 //  MarvelDeck
 //
-//  Created by Megan Wiemer on 5/12/25.
+//  Created by Megan Wiemer on 5/13/25.
 //
 
-import CryptoSwift
 import SwiftUI
 
-@Observable
-class CharacterListViewModel {
-    var characters = [ComicCharacter]()
+class CharacterListViewModel: ObservableObject {
+    @Published var characters = [ComicCharacter]()
 
-    init() {
+    private let characterService: CharacterServiceProtocol
+
+    init(characterService: CharacterServiceProtocol = CharacterService()) {
+        self.characterService = characterService
     }
 
-    @MainActor
-    func fetchCharcters() async {
-        do {
-            async let response: MarvelResponse = try await APIClient().fetch(CharactersEndpoint.characters)
-            characters = try await response.data.results
-        } catch {
-            print("!!!!! Caught an error: \(error)")
+    func loadCharacterList() {
+        Task { @MainActor in
+            do {
+                characters = try await characterService.fetchCharactersList()
+            } catch {
+                print("!!!! Make sure to handle the error !!!!")
+                print(error.localizedDescription)
+            }
         }
     }
 }

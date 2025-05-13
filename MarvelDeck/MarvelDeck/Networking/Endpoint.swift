@@ -2,13 +2,13 @@
 //  Endpoint.swift
 //  MarvelDeck
 //
-//  Created by Megan Wiemer on 5/12/25.
+//  Created by Megan Wiemer on 5/13/25.
 //
 
 import Foundation
 
 protocol Endpoint {
-    var baseUrl: String { get }
+    var baseURL: String { get }
     var scheme: String { get }
     var path: String { get }
     var queryItems: [URLQueryItem] { get }
@@ -17,7 +17,7 @@ protocol Endpoint {
 }
 
 extension Endpoint {
-    var baseUrl: String {
+    var baseURL: String {
         EnvironmentVariables.baseURL
     }
 

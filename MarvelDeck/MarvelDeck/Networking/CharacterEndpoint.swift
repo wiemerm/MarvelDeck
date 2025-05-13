@@ -1,14 +1,13 @@
 //
-//  CharactersEndpoint.swift
+//  CharacterEndpoint.swift
 //  MarvelDeck
 //
-//  Created by Megan Wiemer on 5/12/25.
+//  Created by Megan Wiemer on 5/13/25.
 //
 
-import CryptoSwift
 import Foundation
 
-enum CharactersEndpoint: Endpoint {
+enum CharacterEndpoint: Endpoint {
     case characters
     case character(id: Int)
     case comics(characterID: Int)
@@ -24,18 +23,6 @@ enum CharactersEndpoint: Endpoint {
     }
 
     var queryItems: [URLQueryItem] {
-//        let timestamp = "\(Int(Date().timeIntervalSince1970))"
-//        let apiKey = EnvironmentVariables.publicKey
-//        let privateKey = EnvironmentVariables.privateKey
-//        let hash = (timestamp + privateKey + apiKey).md5()
-
-        // Using CryptoKit
-//        let digest = Insecure.MD5.hash(data: Data(string.utf8))
-//
-//            return digest.map {
-//                String(format: "%02hhx", $0)
-//            }.joined()
-
         let timestamp = "1670913383902"
         let apiKey = "edc9531ea872c74a2855ed93a5903229"
         let hash = "bbb581dcf34e4752243b361daa960fb1"
@@ -50,7 +37,7 @@ enum CharactersEndpoint: Endpoint {
     func makeRequest() -> URLRequest? {
         var components = URLComponents()
         components.scheme = scheme
-        components.host = baseUrl
+        components.host = baseURL
         components.path = path
         components.queryItems = queryItems
 

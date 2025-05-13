@@ -15,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "63A925D82DD0FD5000CEAB18"
+               BlueprintIdentifier = "637942982DD39BFE0081907D"
                BuildableName = "MarvelDeck.app"
                BlueprintName = "MarvelDeck"
                ReferencedContainer = "container:MarvelDeck.xcodeproj">
@@ -35,7 +35,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "63A925E82DD0FD5100CEAB18"
+               BlueprintIdentifier = "637942A82DD39BFF0081907D"
                BuildableName = "MarvelDeckTests.xctest"
                BlueprintName = "MarvelDeckTests"
                ReferencedContainer = "container:MarvelDeck.xcodeproj">
@@ -46,7 +46,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "63A925F22DD0FD5100CEAB18"
+               BlueprintIdentifier = "637942B22DD39BFF0081907D"
                BuildableName = "MarvelDeckUITests.xctest"
                BlueprintName = "MarvelDeckUITests"
                ReferencedContainer = "container:MarvelDeck.xcodeproj">
@@ -68,7 +68,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63A925D82DD0FD5000CEAB18"
+            BlueprintIdentifier = "637942982DD39BFE0081907D"
             BuildableName = "MarvelDeck.app"
             BlueprintName = "MarvelDeck"
             ReferencedContainer = "container:MarvelDeck.xcodeproj">
@@ -85,7 +85,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63A925D82DD0FD5000CEAB18"
+            BlueprintIdentifier = "637942982DD39BFE0081907D"
             BuildableName = "MarvelDeck.app"
             BlueprintName = "MarvelDeck"
             ReferencedContainer = "container:MarvelDeck.xcodeproj">

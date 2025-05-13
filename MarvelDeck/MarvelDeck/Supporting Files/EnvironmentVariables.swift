@@ -2,7 +2,7 @@
 //  EnvironmentVariables.swift
 //  MarvelDeck
 //
-//  Created by Megan Wiemer on 5/12/25.
+//  Created by Megan Wiemer on 5/13/25.
 //
 
 import Foundation
@@ -11,7 +11,7 @@ struct EnvironmentVariables {
     enum Keys {
         static let publicKey = "PUBLIC_KEY"
         static let privateKey = "PRIVATE_KEY"
-        static let baseUrl = "BASE_URL"
+        static let baseURL = "BASE_URL"
     }
 
     static let publicKey: String = {
@@ -23,10 +23,10 @@ struct EnvironmentVariables {
     }()
 
     static let baseURL: String = {
-        EnvironmentVariables.infoDict[Keys.baseUrl] as? String ?? ""
+        EnvironmentVariables.infoDict[Keys.baseURL] as? String ?? ""
     }()
 
-    nonisolated(unsafe) private static let infoDict: [String: Any] = {
+    private static let infoDict: [String: Any] = {
         Bundle.main.infoDictionary ?? [:]
     }()
 }

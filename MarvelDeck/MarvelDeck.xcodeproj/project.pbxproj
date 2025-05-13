@@ -6,58 +6,54 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		63929C302DD23D03009EF400 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 63929C2F2DD23D03009EF400 /* CryptoSwift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
-		63A925EA2DD0FD5100CEAB18 /* PBXContainerItemProxy */ = {
+		637942AA2DD39BFF0081907D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 63A925D12DD0FD5000CEAB18 /* Project object */;
+			containerPortal = 637942912DD39BFE0081907D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 63A925D82DD0FD5000CEAB18;
+			remoteGlobalIDString = 637942982DD39BFE0081907D;
 			remoteInfo = MarvelDeck;
 		};
-		63A925F42DD0FD5100CEAB18 /* PBXContainerItemProxy */ = {
+		637942B42DD39BFF0081907D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 63A925D12DD0FD5000CEAB18 /* Project object */;
+			containerPortal = 637942912DD39BFE0081907D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 63A925D82DD0FD5000CEAB18;
+			remoteGlobalIDString = 637942982DD39BFE0081907D;
 			remoteInfo = MarvelDeck;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		63A925D92DD0FD5000CEAB18 /* MarvelDeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		63A925E92DD0FD5100CEAB18 /* MarvelDeckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelDeckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		63A925F32DD0FD5100CEAB18 /* MarvelDeckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelDeckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		637942992DD39BFE0081907D /* MarvelDeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		637942A92DD39BFF0081907D /* MarvelDeckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelDeckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		637942B32DD39BFF0081907D /* MarvelDeckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelDeckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		63929C4A2DD27B2E009EF400 /* Exceptions for "MarvelDeck" folder in "MarvelDeck" target */ = {
+		637943132DD39D650081907D /* Exceptions for "MarvelDeck" folder in "MarvelDeck" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 63A925D82DD0FD5000CEAB18 /* MarvelDeck */;
+			target = 637942982DD39BFE0081907D /* MarvelDeck */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		63A925DB2DD0FD5000CEAB18 /* MarvelDeck */ = {
+		6379429B2DD39BFE0081907D /* MarvelDeck */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				63929C4A2DD27B2E009EF400 /* Exceptions for "MarvelDeck" folder in "MarvelDeck" target */,
+				637943132DD39D650081907D /* Exceptions for "MarvelDeck" folder in "MarvelDeck" target */,
 			);
 			path = MarvelDeck;
 			sourceTree = "<group>";
 		};
-		63A925EC2DD0FD5100CEAB18 /* MarvelDeckTests */ = {
+		637942AC2DD39BFF0081907D /* MarvelDeckTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MarvelDeckTests;
 			sourceTree = "<group>";
 		};
-		63A925F62DD0FD5100CEAB18 /* MarvelDeckUITests */ = {
+		637942B62DD39BFF0081907D /* MarvelDeckUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MarvelDeckUITests;
 			sourceTree = "<group>";
@@ -65,22 +61,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		63A925D62DD0FD5000CEAB18 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63929C302DD23D03009EF400 /* CryptoSwift in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		63A925E62DD0FD5100CEAB18 /* Frameworks */ = {
+		637942962DD39BFE0081907D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63A925F02DD0FD5100CEAB18 /* Frameworks */ = {
+		637942A62DD39BFF0081907D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637942B02DD39BFF0081907D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,22 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63A925D02DD0FD5000CEAB18 = {
+		637942902DD39BFE0081907D = {
 			isa = PBXGroup;
 			children = (
-				63A925DB2DD0FD5000CEAB18 /* MarvelDeck */,
-				63A925EC2DD0FD5100CEAB18 /* MarvelDeckTests */,
-				63A925F62DD0FD5100CEAB18 /* MarvelDeckUITests */,
-				63A925DA2DD0FD5000CEAB18 /* Products */,
+				6379429B2DD39BFE0081907D /* MarvelDeck */,
+				637942AC2DD39BFF0081907D /* MarvelDeckTests */,
+				637942B62DD39BFF0081907D /* MarvelDeckUITests */,
+				6379429A2DD39BFE0081907D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		63A925DA2DD0FD5000CEAB18 /* Products */ = {
+		6379429A2DD39BFE0081907D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63A925D92DD0FD5000CEAB18 /* MarvelDeck.app */,
-				63A925E92DD0FD5100CEAB18 /* MarvelDeckTests.xctest */,
-				63A925F32DD0FD5100CEAB18 /* MarvelDeckUITests.xctest */,
+				637942992DD39BFE0081907D /* MarvelDeck.app */,
+				637942A92DD39BFF0081907D /* MarvelDeckTests.xctest */,
+				637942B32DD39BFF0081907D /* MarvelDeckUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,140 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63A925D82DD0FD5000CEAB18 /* MarvelDeck */ = {
+		637942982DD39BFE0081907D /* MarvelDeck */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63A925FD2DD0FD5100CEAB18 /* Build configuration list for PBXNativeTarget "MarvelDeck" */;
+			buildConfigurationList = 637942BD2DD39BFF0081907D /* Build configuration list for PBXNativeTarget "MarvelDeck" */;
 			buildPhases = (
-				63A925D52DD0FD5000CEAB18 /* Sources */,
-				63A925D62DD0FD5000CEAB18 /* Frameworks */,
-				63A925D72DD0FD5000CEAB18 /* Resources */,
-				63A926072DD0FDCC00CEAB18 /* Swiftlint */,
+				637942952DD39BFE0081907D /* Sources */,
+				637942962DD39BFE0081907D /* Frameworks */,
+				637942972DD39BFE0081907D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				63A925DB2DD0FD5000CEAB18 /* MarvelDeck */,
+				6379429B2DD39BFE0081907D /* MarvelDeck */,
 			);
 			name = MarvelDeck;
 			packageProductDependencies = (
-				63929C2F2DD23D03009EF400 /* CryptoSwift */,
 			);
 			productName = MarvelDeck;
-			productReference = 63A925D92DD0FD5000CEAB18 /* MarvelDeck.app */;
+			productReference = 637942992DD39BFE0081907D /* MarvelDeck.app */;
 			productType = "com.apple.product-type.application";
 		};
-		63A925E82DD0FD5100CEAB18 /* MarvelDeckTests */ = {
+		637942A82DD39BFF0081907D /* MarvelDeckTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63A926002DD0FD5100CEAB18 /* Build configuration list for PBXNativeTarget "MarvelDeckTests" */;
+			buildConfigurationList = 637942C02DD39BFF0081907D /* Build configuration list for PBXNativeTarget "MarvelDeckTests" */;
 			buildPhases = (
-				63A925E52DD0FD5100CEAB18 /* Sources */,
-				63A925E62DD0FD5100CEAB18 /* Frameworks */,
-				63A925E72DD0FD5100CEAB18 /* Resources */,
+				637942A52DD39BFF0081907D /* Sources */,
+				637942A62DD39BFF0081907D /* Frameworks */,
+				637942A72DD39BFF0081907D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				63A925EB2DD0FD5100CEAB18 /* PBXTargetDependency */,
+				637942AB2DD39BFF0081907D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				63A925EC2DD0FD5100CEAB18 /* MarvelDeckTests */,
+				637942AC2DD39BFF0081907D /* MarvelDeckTests */,
 			);
 			name = MarvelDeckTests;
 			packageProductDependencies = (
 			);
 			productName = MarvelDeckTests;
-			productReference = 63A925E92DD0FD5100CEAB18 /* MarvelDeckTests.xctest */;
+			productReference = 637942A92DD39BFF0081907D /* MarvelDeckTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		63A925F22DD0FD5100CEAB18 /* MarvelDeckUITests */ = {
+		637942B22DD39BFF0081907D /* MarvelDeckUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63A926032DD0FD5100CEAB18 /* Build configuration list for PBXNativeTarget "MarvelDeckUITests" */;
+			buildConfigurationList = 637942C32DD39BFF0081907D /* Build configuration list for PBXNativeTarget "MarvelDeckUITests" */;
 			buildPhases = (
-				63A925EF2DD0FD5100CEAB18 /* Sources */,
-				63A925F02DD0FD5100CEAB18 /* Frameworks */,
-				63A925F12DD0FD5100CEAB18 /* Resources */,
+				637942AF2DD39BFF0081907D /* Sources */,
+				637942B02DD39BFF0081907D /* Frameworks */,
+				637942B12DD39BFF0081907D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				63A925F52DD0FD5100CEAB18 /* PBXTargetDependency */,
+				637942B52DD39BFF0081907D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				63A925F62DD0FD5100CEAB18 /* MarvelDeckUITests */,
+				637942B62DD39BFF0081907D /* MarvelDeckUITests */,
 			);
 			name = MarvelDeckUITests;
 			packageProductDependencies = (
 			);
 			productName = MarvelDeckUITests;
-			productReference = 63A925F32DD0FD5100CEAB18 /* MarvelDeckUITests.xctest */;
+			productReference = 637942B32DD39BFF0081907D /* MarvelDeckUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		63A925D12DD0FD5000CEAB18 /* Project object */ = {
+		637942912DD39BFE0081907D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					63A925D82DD0FD5000CEAB18 = {
+					637942982DD39BFE0081907D = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					63A925E82DD0FD5100CEAB18 = {
+					637942A82DD39BFF0081907D = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 63A925D82DD0FD5000CEAB18;
+						TestTargetID = 637942982DD39BFE0081907D;
 					};
-					63A925F22DD0FD5100CEAB18 = {
+					637942B22DD39BFF0081907D = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 63A925D82DD0FD5000CEAB18;
+						TestTargetID = 637942982DD39BFE0081907D;
 					};
 				};
 			};
-			buildConfigurationList = 63A925D42DD0FD5000CEAB18 /* Build configuration list for PBXProject "MarvelDeck" */;
+			buildConfigurationList = 637942942DD39BFE0081907D /* Build configuration list for PBXProject "MarvelDeck" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 63A925D02DD0FD5000CEAB18;
+			mainGroup = 637942902DD39BFE0081907D;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-				63A926062DD0FDB200CEAB18 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
-				63929C2E2DD23CDA009EF400 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
-			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 63A925DA2DD0FD5000CEAB18 /* Products */;
+			productRefGroup = 6379429A2DD39BFE0081907D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63A925D82DD0FD5000CEAB18 /* MarvelDeck */,
-				63A925E82DD0FD5100CEAB18 /* MarvelDeckTests */,
-				63A925F22DD0FD5100CEAB18 /* MarvelDeckUITests */,
+				637942982DD39BFE0081907D /* MarvelDeck */,
+				637942A82DD39BFF0081907D /* MarvelDeckTests */,
+				637942B22DD39BFF0081907D /* MarvelDeckUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		63A925D72DD0FD5000CEAB18 /* Resources */ = {
+		637942972DD39BFE0081907D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63A925E72DD0FD5100CEAB18 /* Resources */ = {
+		637942A72DD39BFF0081907D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63A925F12DD0FD5100CEAB18 /* Resources */ = {
+		637942B12DD39BFF0081907D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,44 +244,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		63A926072DD0FDCC00CEAB18 /* Swiftlint */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = Swiftlint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "SWIFT_PACKAGE_DIR=\"${BUILD_DIR%Build/*}SourcePackages/artifacts\"\nSWIFTLINT_CMD=$(ls \"$SWIFT_PACKAGE_DIR\"/swiftlintplugins/SwiftLintBinary/SwiftLintBinary.artifactbundle/swiftlint-*-macos/bin/swiftlint | head -n 1)\n\nif test -f \"$SWIFTLINT_CMD\" 2>&1\nthen\n    \"$SWIFTLINT_CMD\"\nelse\n    echo \"warning: `swiftlint` command not found - See https://github.com/realm/SwiftLint#installation for installation instructions.\"\nfi\n\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		63A925D52DD0FD5000CEAB18 /* Sources */ = {
+		637942952DD39BFE0081907D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63A925E52DD0FD5100CEAB18 /* Sources */ = {
+		637942A52DD39BFF0081907D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63A925EF2DD0FD5100CEAB18 /* Sources */ = {
+		637942AF2DD39BFF0081907D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -302,22 +269,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		63A925EB2DD0FD5100CEAB18 /* PBXTargetDependency */ = {
+		637942AB2DD39BFF0081907D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 63A925D82DD0FD5000CEAB18 /* MarvelDeck */;
-			targetProxy = 63A925EA2DD0FD5100CEAB18 /* PBXContainerItemProxy */;
+			target = 637942982DD39BFE0081907D /* MarvelDeck */;
+			targetProxy = 637942AA2DD39BFF0081907D /* PBXContainerItemProxy */;
 		};
-		63A925F52DD0FD5100CEAB18 /* PBXTargetDependency */ = {
+		637942B52DD39BFF0081907D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 63A925D82DD0FD5000CEAB18 /* MarvelDeck */;
-			targetProxy = 63A925F42DD0FD5100CEAB18 /* PBXContainerItemProxy */;
+			target = 637942982DD39BFE0081907D /* MarvelDeck */;
+			targetProxy = 637942B42DD39BFF0081907D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		63A925FB2DD0FD5100CEAB18 /* Debug */ = {
+		637942BB2DD39BFF0081907D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 63A925DB2DD0FD5000CEAB18 /* MarvelDeck */;
+			baseConfigurationReferenceAnchor = 6379429B2DD39BFE0081907D /* MarvelDeck */;
 			baseConfigurationReferenceRelativePath = "Supporting Files/Configuration.xcconfig";
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -354,7 +321,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -377,13 +344,12 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		63A925FC2DD0FD5100CEAB18 /* Release */ = {
+		637942BC2DD39BFF0081907D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 63A925DB2DD0FD5000CEAB18 /* MarvelDeck */;
+			baseConfigurationReferenceAnchor = 6379429B2DD39BFE0081907D /* MarvelDeck */;
 			baseConfigurationReferenceRelativePath = "Supporting Files/Configuration.xcconfig";
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -420,7 +386,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -435,12 +401,11 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		63A925FE2DD0FD5100CEAB18 /* Debug */ = {
+		637942BE2DD39BFF0081907D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -455,8 +420,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,12 +430,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.meganwiemer.MarvelDeck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		63A925FF2DD0FD5100CEAB18 /* Release */ = {
+		637942BF2DD39BFF0081907D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -485,8 +450,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -495,12 +460,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.meganwiemer.MarvelDeck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		63A926012DD0FD5100CEAB18 /* Debug */ = {
+		637942C12DD39BFF0081907D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,7 +484,7 @@
 			};
 			name = Debug;
 		};
-		63A926022DD0FD5100CEAB18 /* Release */ = {
+		637942C22DD39BFF0081907D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -538,7 +503,7 @@
 			};
 			name = Release;
 		};
-		63A926042DD0FD5100CEAB18 /* Debug */ = {
+		637942C42DD39BFF0081907D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -555,7 +520,7 @@
 			};
 			name = Debug;
 		};
-		63A926052DD0FD5100CEAB18 /* Release */ = {
+		637942C52DD39BFF0081907D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -575,70 +540,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63A925D42DD0FD5000CEAB18 /* Build configuration list for PBXProject "MarvelDeck" */ = {
+		637942942DD39BFE0081907D /* Build configuration list for PBXProject "MarvelDeck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63A925FB2DD0FD5100CEAB18 /* Debug */,
-				63A925FC2DD0FD5100CEAB18 /* Release */,
+				637942BB2DD39BFF0081907D /* Debug */,
+				637942BC2DD39BFF0081907D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63A925FD2DD0FD5100CEAB18 /* Build configuration list for PBXNativeTarget "MarvelDeck" */ = {
+		637942BD2DD39BFF0081907D /* Build configuration list for PBXNativeTarget "MarvelDeck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63A925FE2DD0FD5100CEAB18 /* Debug */,
-				63A925FF2DD0FD5100CEAB18 /* Release */,
+				637942BE2DD39BFF0081907D /* Debug */,
+				637942BF2DD39BFF0081907D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63A926002DD0FD5100CEAB18 /* Build configuration list for PBXNativeTarget "MarvelDeckTests" */ = {
+		637942C02DD39BFF0081907D /* Build configuration list for PBXNativeTarget "MarvelDeckTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63A926012DD0FD5100CEAB18 /* Debug */,
-				63A926022DD0FD5100CEAB18 /* Release */,
+				637942C12DD39BFF0081907D /* Debug */,
+				637942C22DD39BFF0081907D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63A926032DD0FD5100CEAB18 /* Build configuration list for PBXNativeTarget "MarvelDeckUITests" */ = {
+		637942C32DD39BFF0081907D /* Build configuration list for PBXNativeTarget "MarvelDeckUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63A926042DD0FD5100CEAB18 /* Debug */,
-				63A926052DD0FD5100CEAB18 /* Release */,
+				637942C42DD39BFF0081907D /* Debug */,
+				637942C52DD39BFF0081907D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		63929C2E2DD23CDA009EF400 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.8.4;
-			};
-		};
-		63A926062DD0FDB200CEAB18 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.59.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		63929C2F2DD23D03009EF400 /* CryptoSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 63929C2E2DD23CDA009EF400 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
-			productName = CryptoSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 63A925D12DD0FD5000CEAB18 /* Project object */;
+	rootObject = 637942912DD39BFE0081907D /* Project object */;
 }
