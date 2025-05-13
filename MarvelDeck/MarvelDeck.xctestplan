@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "17082670-65C3-4157-95BE-E711818BBE19",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:MarvelDeck.xcodeproj",
+      "identifier" : "637942982DD39BFE0081907D",
+      "name" : "MarvelDeck"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:MarvelDeck.xcodeproj",
+        "identifier" : "637942A82DD39BFF0081907D",
+        "name" : "MarvelDeckTests"
+      }
+    }
+  ],
+  "version" : 1
+}

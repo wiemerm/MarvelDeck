@@ -10,15 +10,43 @@ import Foundation
 
 class MockCharacterService: CharacterServiceProtocol {
     var charactersToReturn: [ComicCharacter]?
+    var comicsToReturn: [Comic]?
+    var eventsToReturn: [Comic]?
     var errorToThrow: Error?
 
     private(set) var fetchCharactersCallCount = 0
+    private(set) var fetchComicsCallCount = 0
+    private(set) var fetchEventsCallCount = 0
 
     func fetchCharactersList() async throws -> [ComicCharacter] {
         fetchCharactersCallCount += 1
 
         if let charactersToReturn {
             return charactersToReturn
+        } else if let errorToThrow {
+            throw errorToThrow
+        }
+
+        throw TestError.fakeError(message: "No characters set to return or error declared to throw")
+    }
+
+    func fetchComics(for characterID: Int) async throws -> [Comic] {
+        fetchComicsCallCount += 1
+
+        if let comicsToReturn {
+            return comicsToReturn
+        } else if let errorToThrow {
+            throw errorToThrow
+        }
+
+        throw TestError.fakeError(message: "No characters set to return or error declared to throw")
+    }
+
+    func fetchEvents(for characterID: Int) async throws -> [Comic] {
+        fetchEventsCallCount += 1
+
+        if let eventsToReturn {
+            return eventsToReturn
         } else if let errorToThrow {
             throw errorToThrow
         }

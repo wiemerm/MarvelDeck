@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct CharacterDetailView: View {
-    let character: ComicCharacter // TODO: Move this to viewModel
     @Environment(\.dismiss) var dismiss
-    @State var selectedTab = 0 // TODO: This will move to the view model
+    @ObservedObject private var viewModel: CharacterDetailViewModel
 
     private let columns = Array(repeating: GridItem(.flexible(minimum: 120, maximum: 140), spacing: 4), count: 3)
 
@@ -18,17 +17,18 @@ struct CharacterDetailView: View {
         VStack(spacing: 0) {
             CharacterHeaderView()
 
-            Segmented(index: $selectedTab)
+            Segmented(index: $viewModel.selectedTab)
                 .padding(.bottom, 24)
                 .padding(.top, 48)
 
             ScrollView {
                 LazyVGrid(columns: columns, spacing: 20) {
-                    ForEach(Array(0..<20), id: \.self) { character in
-                        Color.blue.overlay {
-                            Text("\(character)")
-                        }
-                        .frame(minHeight: 120, maxHeight: 140)
+                    ForEach(viewModel.gridData) { item in
+                        ThumbnailGridItem(
+                            name: nil,
+                            thumbnailURL: item.thumbnailURL,
+                            dimensions: 120
+                        )
                     }
                 }
             }
@@ -43,7 +43,14 @@ struct CharacterDetailView: View {
                 .tint(.black)
             }
         }
-        .environment(\.comicCharacter, character)
+        .environment(\.comicCharacter, viewModel.character)
+        .onAppear {
+            viewModel.fetchComicsAndEvents()
+        }
+    }
+
+    init(character: ComicCharacter) {
+        viewModel = CharacterDetailViewModel(character: character)
     }
 }
 

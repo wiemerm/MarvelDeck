@@ -1,0 +1,3396 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2025 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2025 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2025 MARVEL</a>",
+  "etag": "77451a2235bfa940c5fe45a160bc3a135c035a14",
+  "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 2545,
+    "count": 20,
+    "results": [
+      {
+        "id": 129194,
+        "digitalId": 73401,
+        "title": "Marvel Rivals Infinity Comic (2024) #11",
+        "issueNumber": 11,
+        "variantDescription": "",
+        "description": "THE UNWAVERING ULTRON.  Ultron has seemingly been defeated… But villains always tend to have a Plan B. For now, Cerebro is safe from capture... but is it safe from Ultron’s corruption???",
+        "modified": "2025-05-02T09:12:37+0000",
+        "isbn": "",
+        "upc": "75960621173901111",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 6,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/129194",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/129194/marvel_rivals_infinity_comic_2024_11?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Marvel-Rivals-Infinity-Comic-11/digital-comic/73401?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=73401&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/42891",
+          "name": "Marvel Rivals Infinity Comic (2024 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2025-05-08T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2025-04-07T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2025-05-08T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-05-08T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/03/680146584cc21",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/03/680146584cc21",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129194/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12854",
+              "name": "Paul Allor",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13946",
+              "name": "DEE CUNNIFFE",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/8606",
+              "name": "Ig Guara",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12974",
+              "name": "Vc Joe Sabino",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14311",
+              "name": "Jordan White",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 12,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129194/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009187",
+              "name": "Black Panther"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009310",
+              "name": "Emma Frost"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009415",
+              "name": "Magik (Illyana Rasputin)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009466",
+              "name": "Namor"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009512",
+              "name": "Psylocke"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1010744",
+              "name": "Rocket Raccoon"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1010860",
+              "name": "Squirrel Girl"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009629",
+              "name": "Storm"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009662",
+              "name": "Thing"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009685",
+              "name": "Ultron"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009718",
+              "name": "Wolverine"
+            }
+          ],
+          "returned": 12
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129194/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/280942",
+              "name": "cover from Marvel Rivals Infinity Comic (2024) #11",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/280943",
+              "name": "story from Marvel Rivals Infinity Comic (2024) #11",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129194/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 129193,
+        "digitalId": 73400,
+        "title": "Marvel Rivals Infinity Comic (2024) #10",
+        "issueNumber": 10,
+        "variantDescription": "",
+        "description": "BATTLE OVER CEREBRO.  The siege on Krakoa continues! With his cold, robotic hands almost on Cerebro, Ultron is closer than ever to controlling mutantkind! Will Captain America and his team save Cerebro? Or will Emma Frost and the mutants destroy it before it’s too late?",
+        "modified": "2025-05-02T09:12:37+0000",
+        "isbn": "",
+        "upc": "75960621173901011",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 6,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/129193",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/129193/marvel_rivals_infinity_comic_2024_10?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Marvel-Rivals-Infinity-Comic-10/digital-comic/73400?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=73400&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/42891",
+          "name": "Marvel Rivals Infinity Comic (2024 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2025-05-01T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2025-03-31T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2025-05-01T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-05-01T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/c0/67ffe238de1f0",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/c0/67ffe238de1f0",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 4,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129193/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12854",
+              "name": "Paul Allor",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13946",
+              "name": "DEE CUNNIFFE",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12974",
+              "name": "Vc Joe Sabino",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14311",
+              "name": "Jordan White",
+              "role": "editor"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 14,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129193/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009187",
+              "name": "Black Panther"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009167",
+              "name": "Bruce Banner"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009310",
+              "name": "Emma Frost"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009415",
+              "name": "Magik (Illyana Rasputin)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009466",
+              "name": "Namor"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009512",
+              "name": "Psylocke"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1010744",
+              "name": "Rocket Raccoon"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1010860",
+              "name": "Squirrel Girl"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009629",
+              "name": "Storm"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009662",
+              "name": "Thing"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1011960",
+              "name": "Tippy Toe"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009685",
+              "name": "Ultron"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009718",
+              "name": "Wolverine"
+            }
+          ],
+          "returned": 14
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129193/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/280940",
+              "name": "cover from Marvel Rivals Infinity Comic (2024) #10",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/280941",
+              "name": "story from Marvel Rivals Infinity Comic (2024) #10",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129193/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 129192,
+        "digitalId": 73399,
+        "title": "Marvel Rivals Infinity Comic (2024) #9",
+        "issueNumber": 9,
+        "variantDescription": "",
+        "description": "BETRAYAL! Ultron has taken control of Arakko, Krakoa’s sister nation, and hacked its portals to invade the island of Krakoa! While the inhabitants of the island battle against his army of sentries, Ultron has taken over The Cradle and possesses Cerebro! And whoever controls Cerebro…controls all mutants in the multiverse! The chance of this grim reality does not sit well with Emma Frost, as she leads a group of heroes to destroy Cerebro before Ultron gains complete control over mutantkind! ",
+        "modified": "2025-04-10T16:16:28+0000",
+        "isbn": "",
+        "upc": "75960621173900911",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 6,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/129192",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/129192/marvel_rivals_infinity_comic_2024_9?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Marvel-Rivals-Infinity-Comic-9/digital-comic/73399?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=73399&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/42891",
+          "name": "Marvel Rivals Infinity Comic (2024 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2025-04-24T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2025-03-24T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2025-04-24T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-04-24T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/c0/67f5469699242",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/c0/67f5469699242",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 4,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129192/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12854",
+              "name": "Paul Allor",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13946",
+              "name": "DEE CUNNIFFE",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12974",
+              "name": "Vc Joe Sabino",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14311",
+              "name": "Jordan White",
+              "role": "editor"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 12,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129192/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009187",
+              "name": "Black Panther"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009310",
+              "name": "Emma Frost"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009415",
+              "name": "Magik (Illyana Rasputin)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009512",
+              "name": "Psylocke"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1010744",
+              "name": "Rocket Raccoon"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1010860",
+              "name": "Squirrel Girl"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009629",
+              "name": "Storm"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009662",
+              "name": "Thing"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1011960",
+              "name": "Tippy Toe"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009685",
+              "name": "Ultron"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009718",
+              "name": "Wolverine"
+            }
+          ],
+          "returned": 12
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129192/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/280938",
+              "name": "cover from Marvel Rivals Infinity Comic (2024) #9",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/280939",
+              "name": "story from Marvel Rivals Infinity Comic (2024) #9",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129192/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 129191,
+        "digitalId": 73398,
+        "title": "Marvel Rivals Infinity Comic (2024) #8",
+        "issueNumber": 8,
+        "variantDescription": "",
+        "description": "DESTROY CEREBRO OR DIE!!! Ultron has taken control of Arakko, Krakoa’s sister nation, and hacked its portals to invade the island of Krakoa! While the inhabitants of the island battle against his army of sentries, Ultron has taken over the Cradle and possesses Cerebro! And whoever controls Cerebro…controls all mutants in the multiverse ! The chance of this grim reality does not sit well with Emma Frost as she leads a group of heroes to destroy Cerebro before Ultron gains complete control over mutantkind!",
+        "modified": "2025-04-10T16:19:01+0000",
+        "isbn": "",
+        "upc": "75960621173900811",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 6,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/129191",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/129191/marvel_rivals_infinity_comic_2024_8?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Marvel-Rivals-Infinity-Comic-8/digital-comic/73398?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=73398&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/42891",
+          "name": "Marvel Rivals Infinity Comic (2024 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2025-04-17T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2025-03-17T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2025-04-17T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-04-17T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/f0/67f5457fa091e",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/f0/67f5457fa091e",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129191/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12854",
+              "name": "Paul Allor",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14804",
+              "name": "Luca Claretti",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13946",
+              "name": "DEE CUNNIFFE",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12974",
+              "name": "Vc Joe Sabino",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14311",
+              "name": "Jordan White",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 13,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129191/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009187",
+              "name": "Black Panther"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009310",
+              "name": "Emma Frost"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009415",
+              "name": "Magik (Illyana Rasputin)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009466",
+              "name": "Namor"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009512",
+              "name": "Psylocke"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1010744",
+              "name": "Rocket Raccoon"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1010860",
+              "name": "Squirrel Girl"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009629",
+              "name": "Storm"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009662",
+              "name": "Thing"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1011960",
+              "name": "Tippy Toe"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009685",
+              "name": "Ultron"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009718",
+              "name": "Wolverine"
+            }
+          ],
+          "returned": 13
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129191/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/280936",
+              "name": "cover from Marvel Rivals Infinity Comic (2024) #8",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/280937",
+              "name": "story from Marvel Rivals Infinity Comic (2024) #8",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129191/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 129190,
+        "digitalId": 73397,
+        "title": "Marvel Rivals Infinity Comic (2024) #7",
+        "issueNumber": 7,
+        "variantDescription": "",
+        "description": "WELCOME TO THE HELLFIRE GALA!!! The island of Krakoa is the home nation for mutants on Earth — as well as the venue for the best party ever…the Hellfire Gala! The celebration has been crashed by an army of Ultron sentries, and it’s up to the partygoers to save the island! Leader of the mutant inhabitants, Emma Frost, spearheads the fight alongside Psylocke, Magik and Storm! Will Krakoa prevail in saving itself from robotic dominion, or will its guests fail to help their mutant allies? And WHERE is Ultron???",
+        "modified": "2025-04-10T16:18:09+0000",
+        "isbn": "",
+        "upc": "75960621173900711",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 6,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/129190",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/129190/marvel_rivals_infinity_comic_2024_7?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Marvel-Rivals-Infinity-Comic-7/digital-comic/73397?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=73397&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/42891",
+          "name": "Marvel Rivals Infinity Comic (2024 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2025-04-11T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2025-03-10T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2025-04-11T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-04-11T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/20/67ddb9be780e6",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/20/67ddb9be780e6",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 6,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129190/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12854",
+              "name": "Paul Allor",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14804",
+              "name": "Luca Claretti",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13946",
+              "name": "DEE CUNNIFFE",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13554",
+              "name": "Simone DI Meo",
+              "role": "penciler (cover)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12974",
+              "name": "Vc Joe Sabino",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14311",
+              "name": "Jordan White",
+              "role": "editor"
+            }
+          ],
+          "returned": 6
+        },
+        "characters": {
+          "available": 12,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129190/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009187",
+              "name": "Black Panther"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009310",
+              "name": "Emma Frost"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009415",
+              "name": "Magik (Illyana Rasputin)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009466",
+              "name": "Namor"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009512",
+              "name": "Psylocke"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1010860",
+              "name": "Squirrel Girl"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009629",
+              "name": "Storm"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009662",
+              "name": "Thing"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1011960",
+              "name": "Tippy Toe"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009685",
+              "name": "Ultron"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009718",
+              "name": "Wolverine"
+            }
+          ],
+          "returned": 12
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129190/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/280934",
+              "name": "cover from Marvel Rivals Infinity Comic (2024) #7",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/280935",
+              "name": "story from Marvel Rivals Infinity Comic (2024) #7",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/129190/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 125061,
+        "digitalId": 70072,
+        "title": "CAPTAIN AMERICA & VOLSTAGG (2025) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "AS VOLSTAGG RECRUITS THE SENTINEL OF LIBERTY! When a war breaks out in the Nine Realms, Volstagg of the Warriors Three turns to the only man skilled enough to end it: Steve Rogers, Captain America! JMS teams with visionary artist Bernard Chang for the second in a series of one-shots bringing unlikely Marvel characters together for tales unlike any other!",
+        "modified": "2025-02-11T11:44:30+0000",
+        "isbn": "",
+        "upc": "75960621200200111",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 40,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/125061",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/125061/captain_america_volstagg_2025_1?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/CAPTAIN-AMERICA-VOLSTAGG-1-1/digital-comic/70072?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=70072&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/43217",
+          "name": "CAPTAIN AMERICA & VOLSTAGG (2025 - Present)"
+        },
+        "variants": [
+          {
+            "resourceURI": "https://gateway.marvel.com/v1/public/comics/125624",
+            "name": "CAPTAIN AMERICA & VOLSTAGG (2025) #1 (Variant)"
+          },
+          {
+            "resourceURI": "https://gateway.marvel.com/v1/public/comics/125729",
+            "name": "CAPTAIN AMERICA & VOLSTAGG (2025) #1 (Variant)"
+          },
+          {
+            "resourceURI": "https://gateway.marvel.com/v1/public/comics/125730",
+            "name": "CAPTAIN AMERICA & VOLSTAGG (2025) #1 (Variant)"
+          },
+          {
+            "resourceURI": "https://gateway.marvel.com/v1/public/comics/125731",
+            "name": "CAPTAIN AMERICA & VOLSTAGG (2025) #1 (Variant)"
+          }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2025-02-26T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2025-01-27T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2025-02-11T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-02-11T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 4.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/50/67b74ad8ae205",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/50/67b74ad8ae205",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 7,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/125061/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/5251",
+              "name": "Vc Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/4039",
+              "name": "Bernard Chang",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/592",
+              "name": "Rachel Dodson",
+              "role": "inker (cover)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/277",
+              "name": "Terry Dodson",
+              "role": "penciler (cover)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12997",
+              "name": "Marcelo Maiolo",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12376",
+              "name": "Wilson Moss",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/4",
+              "name": "J. Michael Straczynski",
+              "role": "writer"
+            }
+          ],
+          "returned": 7
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/125061/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/125061/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/271403",
+              "name": "cover from Captain America & Volstagg by JMS (2025) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/271404",
+              "name": "story from Captain America & Volstagg by JMS (2025) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/125061/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 119963,
+        "digitalId": 71507,
+        "title": "Hellhunters (2024) #3",
+        "issueNumber": 3,
+        "variantDescription": "",
+        "description": "PATRIOT GAMES! When the Hellhunters' methods prove too ruthless for Captain America, they accidentally recruit their secret weapon, their most lethal and ruthless member yet 15-year-old BUCKY BARNES! With Bucky on the team and victory in Europe in the balance, will the Hellhunters be enough to face the cosmic Nazi Hellspawn known as CALPHAEL?",
+        "modified": "2025-01-02T12:50:20+0000",
+        "isbn": "",
+        "upc": "75960621010700311",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/119963",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/119963/hellhunters_2024_3?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Hellhunters-3/digital-comic/71507?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=71507&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/41789",
+          "name": "Hellhunters (2024 - 2025)"
+        },
+        "variants": [
+          {
+            "resourceURI": "https://gateway.marvel.com/v1/public/comics/125790",
+            "name": "Hellhunters (2024) #3 (Variant)"
+          }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2025-02-26T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2025-01-27T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2025-02-11T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-02-11T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/60/67b74aab24e93",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/60/67b74aab24e93",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 7,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/119963/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13645",
+              "name": "Alex Gomes",
+              "role": "colorist (cover)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13040",
+              "name": "Adam Gorham",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13750",
+              "name": "Phillip Kennedy Johnson",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12993",
+              "name": "Vc Travis Lanham",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/4991",
+              "name": "Frank Martin",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13879",
+              "name": "Jonas Scharf",
+              "role": "penciler (cover)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14311",
+              "name": "Jordan White",
+              "role": "editor"
+            }
+          ],
+          "returned": 7
+        },
+        "characters": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/119963/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009211",
+              "name": "Bucky"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            }
+          ],
+          "returned": 2
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/119963/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/261153",
+              "name": "cover from Ghost Rider '44 (2029) #3",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/261154",
+              "name": "story from Ghost Rider '44 (2029) #3",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/119963/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 123632,
+        "digitalId": 70137,
+        "title": "Astonishing X-Men Infinity Comic (2024) #12",
+        "issueNumber": 12,
+        "variantDescription": "",
+        "description": "Black Tom Cassidy’s secret has come to light, and his monstrous new form has dragged Juggernaut to the depths of the Hudson! But Cassidy’s new powers aren’t the only thing lurking beneath the surface…",
+        "modified": "2025-04-29T10:45:56+0000",
+        "isbn": "",
+        "upc": "759606211501001211",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 6,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/123632",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/123632/astonishing_x-men_infinity_comic_2024_12?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Astonishing-X-Men-Infinity-Comic-12/digital-comic/70137?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=70137&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/42778",
+          "name": "Astonishing X-Men Infinity Comic (2024 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2025-02-24T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2025-01-27T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2025-02-24T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-02-24T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/b0/678fd9014b722",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/b0/678fd9014b722",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123632/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14810",
+              "name": "Edoardo Audino",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/10172",
+              "name": "Vc Clayton Cowles",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14478",
+              "name": "K.J. Diaz",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/9550",
+              "name": "Tim Seeley",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13027",
+              "name": "Darren Shan",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 3,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123632/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009188",
+              "name": "Black Tom"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009382",
+              "name": "Juggernaut"
+            }
+          ],
+          "returned": 3
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123632/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/268495",
+              "name": "cover from Astonishing X-Men Infinity Comic (2024) #12",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/268496",
+              "name": "story from Astonishing X-Men Infinity Comic (2024) #12",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123632/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 123631,
+        "digitalId": 70136,
+        "title": "Astonishing X-Men Infinity Comic (2024) #11",
+        "issueNumber": 11,
+        "variantDescription": "",
+        "description": "The inferno rages on! Captain America and Juggernaut must work together to save the passengers onboard the transfer boat. But will their combined efforts be enough to save Cassidy from himself?",
+        "modified": "2025-04-29T10:31:42+0000",
+        "isbn": "",
+        "upc": "759606211501001111",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 6,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/123631",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/123631/astonishing_x-men_infinity_comic_2024_11?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Astonishing-X-Men-Infinity-Comic-11/digital-comic/70136?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=70136&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/42778",
+          "name": "Astonishing X-Men Infinity Comic (2024 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2025-02-17T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2025-01-20T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2025-02-17T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-02-17T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/e0/6781986c06986",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/e0/6781986c06986",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123631/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14810",
+              "name": "Edoardo Audino",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/10172",
+              "name": "Vc Clayton Cowles",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14478",
+              "name": "K.J. Diaz",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/9550",
+              "name": "Tim Seeley",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13027",
+              "name": "Darren Shan",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 3,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123631/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009188",
+              "name": "Black Tom"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009382",
+              "name": "Juggernaut"
+            }
+          ],
+          "returned": 3
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123631/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/268493",
+              "name": "cover from Astonishing X-Men Infinity Comic (2024) #11",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/268494",
+              "name": "story from Astonishing X-Men Infinity Comic (2024) #11",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123631/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 123630,
+        "digitalId": 70135,
+        "title": "Astonishing X-Men Infinity Comic (2024) #10",
+        "issueNumber": 10,
+        "variantDescription": "",
+        "description": "As the fire spreads onboard Cassidy’s prison boat, Juggernaut and Captain America are at odds over whether to free the firestarter. Can the two put their animosity aside in time to save the passengers onboard? And what’s really going on with Black Tom?",
+        "modified": "2025-04-29T10:27:02+0000",
+        "isbn": "",
+        "upc": "759606211501001011",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 6,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/123630",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/123630/astonishing_x-men_infinity_comic_2024_10?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Astonishing-X-Men-Infinity-Comic-10/digital-comic/70135?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=70135&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/42778",
+          "name": "Astonishing X-Men Infinity Comic (2024 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2025-02-10T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2025-01-13T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2025-02-10T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-02-10T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/60/6769722f380f7",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/60/6769722f380f7",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123630/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14810",
+              "name": "Edoardo Audino",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/10172",
+              "name": "Vc Clayton Cowles",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14478",
+              "name": "K.J. Diaz",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/9550",
+              "name": "Tim Seeley",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13027",
+              "name": "Darren Shan",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 3,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123630/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009188",
+              "name": "Black Tom"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009382",
+              "name": "Juggernaut"
+            }
+          ],
+          "returned": 3
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123630/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/268491",
+              "name": "cover from Astonishing X-Men Infinity Comic (2024) #10",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/268492",
+              "name": "story from Astonishing X-Men Infinity Comic (2024) #10",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123630/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 123191,
+        "digitalId": 70989,
+        "title": "Astonishing Avengers Infinity Comic (2025) #4",
+        "issueNumber": 4,
+        "variantDescription": "",
+        "description": "With a crisis averted, the Avengers return to the Impossible City, leaving the Emergency Response Squad to deal with a strange, cursed ship that just arrived in New York Harbor…",
+        "modified": "2025-04-11T08:56:26+0000",
+        "isbn": "",
+        "upc": "75960621140100411",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 6,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/123191",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/123191/astonishing_avengers_infinity_comic_2025_4?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Astonishing-Avengers-Infinity-Comic-4/digital-comic/70989?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=70989&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/42695",
+          "name": "Astonishing Avengers Infinity Comic (2025 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2025-02-06T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2025-01-06T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2025-02-06T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-02-06T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/40/67609411a9da2",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/40/67609411a9da2",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123191/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14800",
+              "name": "Francesco Archidiacono",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12993",
+              "name": "Vc Travis Lanham",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/3708",
+              "name": "Carlos Lopez",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14104",
+              "name": "Steve Orlando",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13046",
+              "name": "Alanna Smith",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 10,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123191/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1017575",
+              "name": "Captain America (Sam Wilson)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1010338",
+              "name": "Captain Marvel (Carol Danvers)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1010684",
+              "name": "Night Thrasher"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1011045",
+              "name": "Photon"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009562",
+              "name": "Scarlet Witch"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009583",
+              "name": "She-Hulk (Jennifer Walters)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009680",
+              "name": "Tyrannus"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009719",
+              "name": "Wonder Man"
+            }
+          ],
+          "returned": 10
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123191/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/267613",
+              "name": "cover from Astonishing Avengers Infinity Comic (2025) #4",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/267614",
+              "name": "story from Astonishing Avengers Infinity Comic (2025) #4",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123191/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 123629,
+        "digitalId": 70134,
+        "title": "Astonishing X-Men Infinity Comic (2024) #9",
+        "issueNumber": 9,
+        "variantDescription": "",
+        "description": "It’s Juggernaut vs. Captain America! Black Tom Cassidy’s prison transfer has gone up in flames and the two heroes butt heads over his innocence.",
+        "modified": "2025-04-29T10:20:10+0000",
+        "isbn": "",
+        "upc": "759606211501000911",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 6,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/123629",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/123629/astonishing_x-men_infinity_comic_2024_9?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Astonishing-X-Men-Infinity-Comic-9/digital-comic/70134?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=70134&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/42778",
+          "name": "Astonishing X-Men Infinity Comic (2024 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2025-02-03T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2025-01-06T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2025-02-03T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-02-03T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/30/6761cd5330c54",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/30/6761cd5330c54",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123629/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14810",
+              "name": "Edoardo Audino",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/10172",
+              "name": "Vc Clayton Cowles",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14478",
+              "name": "K.J. Diaz",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/9550",
+              "name": "Tim Seeley",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13027",
+              "name": "Darren Shan",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123629/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009382",
+              "name": "Juggernaut"
+            }
+          ],
+          "returned": 2
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123629/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/268489",
+              "name": "cover from Astonishing X-Men Infinity Comic (2024) #9",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/268490",
+              "name": "story from Astonishing X-Men Infinity Comic (2024) #9",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123629/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 123628,
+        "digitalId": 70133,
+        "title": "Astonishing X-Men Infinity Comic (2024) #8",
+        "issueNumber": 8,
+        "variantDescription": "",
+        "description": "",
+        "modified": "2025-04-29T10:18:35+0000",
+        "isbn": "",
+        "upc": "759606211501000811",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 6,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/123628",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/123628/astonishing_x-men_infinity_comic_2024_8?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Astonishing-X-Men-Infinity-Comic-8/digital-comic/70133?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=70133&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/42778",
+          "name": "Astonishing X-Men Infinity Comic (2024 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2025-01-27T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2024-12-30T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2025-01-27T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-01-27T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/90/6761a61b707ff",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/90/6761a61b707ff",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 4,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123628/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14810",
+              "name": "Edoardo Audino",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/10172",
+              "name": "Vc Clayton Cowles",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/9550",
+              "name": "Tim Seeley",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13027",
+              "name": "Darren Shan",
+              "role": "editor"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 3,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123628/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009188",
+              "name": "Black Tom"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009382",
+              "name": "Juggernaut"
+            }
+          ],
+          "returned": 3
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123628/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/268487",
+              "name": "cover from Astonishing X-Men Infinity Comic (2024) #8",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/268488",
+              "name": "story from Astonishing X-Men Infinity Comic (2024) #8",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123628/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 123189,
+        "digitalId": 70987,
+        "title": "Astonishing Avengers Infinity Comic (2025) #2",
+        "issueNumber": 2,
+        "variantDescription": "",
+        "description": "Two Avengers squads team up to investigate the Staten Island Obelisk, only to be confronted by a madman from the distant past!",
+        "modified": "2025-04-11T08:35:23+0000",
+        "isbn": "",
+        "upc": "75960621140100211",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 6,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/123189",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/123189/astonishing_avengers_infinity_comic_2025_2?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Astonishing-Avengers-Infinity-Comic-2/digital-comic/70987?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=70987&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/42695",
+          "name": "Astonishing Avengers Infinity Comic (2025 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2025-01-23T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2024-12-23T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2025-01-23T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-01-23T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/03/67609236e407f",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/03/67609236e407f",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123189/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14800",
+              "name": "Francesco Archidiacono",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12993",
+              "name": "Vc Travis Lanham",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/3708",
+              "name": "Carlos Lopez",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14104",
+              "name": "Steve Orlando",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13046",
+              "name": "Alanna Smith",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 15,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123189/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1017575",
+              "name": "Captain America (Sam Wilson)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1010338",
+              "name": "Captain Marvel (Carol Danvers)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009288",
+              "name": "Elektra"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009338",
+              "name": "Hawkeye"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009343",
+              "name": "Hercules"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009368",
+              "name": "Iron Man"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1010684",
+              "name": "Night Thrasher"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1011045",
+              "name": "Photon"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009577",
+              "name": "Shang-Chi"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009583",
+              "name": "She-Hulk (Jennifer Walters)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009629",
+              "name": "Storm"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009680",
+              "name": "Tyrannus"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009719",
+              "name": "Wonder Man"
+            }
+          ],
+          "returned": 15
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123189/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/267609",
+              "name": "cover from Astonishing Avengers Infinity Comic (2025) #2",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/267610",
+              "name": "story from Astonishing Avengers Infinity Comic (2025) #2",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123189/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 123627,
+        "digitalId": 70132,
+        "title": "Astonishing X-Men Infinity Comic (2024) #7",
+        "issueNumber": 7,
+        "variantDescription": "",
+        "description": "A fiery explosion marks the return of Black Tom Cassidy! Despite his brief redemption on Krakoa, he's got a flamin' trigger finger, and it just might get him into more trouble than he's bargaining for with a certain Star-Spangled Avenger…",
+        "modified": "2025-04-29T10:11:41+0000",
+        "isbn": "",
+        "upc": "759606211501000711",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 6,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "A fiery explosion marks the return of Black Tom Cassidy! Despite his brief redemption on Krakoa, he’s got a flamin’ trigger finger, and it just might get him into more trouble than he’s bargaining for with a certain Star-Spangled Avenger… "
+          }
+        ],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/123627",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/123627/astonishing_x-men_infinity_comic_2024_7?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Astonishing-X-Men-Infinity-Comic-7/digital-comic/70132?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=70132&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/42778",
+          "name": "Astonishing X-Men Infinity Comic (2024 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2025-01-20T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2024-12-23T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2025-01-20T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-01-20T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/20/6761dca55b513",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/20/6761dca55b513",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123627/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14810",
+              "name": "Edoardo Audino",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/10172",
+              "name": "Vc Clayton Cowles",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14478",
+              "name": "K.J. Diaz",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/9550",
+              "name": "Tim Seeley",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13027",
+              "name": "Darren Shan",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 4,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123627/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009188",
+              "name": "Black Tom"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009382",
+              "name": "Juggernaut"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009387",
+              "name": "Quentin Quire"
+            }
+          ],
+          "returned": 4
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123627/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/268485",
+              "name": "cover from Astonishing X-Men Infinity Comic (2024) #7",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/268486",
+              "name": "story from Astonishing X-Men Infinity Comic (2024) #7",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123627/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 123188,
+        "digitalId": 70986,
+        "title": "Astonishing Avengers Infinity Comic (2025) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "The Avengers Emergency Response Squad takes on the Avengers in a charity soccer game—only to be interrupted by the appearance of a mysterious obelisk on Staten Island!",
+        "modified": "2025-04-11T08:29:39+0000",
+        "isbn": "",
+        "upc": "75960621140100111",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 6,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/123188",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/123188/astonishing_avengers_infinity_comic_2025_1?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Astonishing-Avengers-Infinity-Comic-1/digital-comic/70986?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=70986&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/42695",
+          "name": "Astonishing Avengers Infinity Comic (2025 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2025-01-15T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2024-12-16T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2025-01-15T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-01-15T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/d0/673fa37b9e533",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/d0/673fa37b9e533",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123188/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14800",
+              "name": "Francesco Archidiacono",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12993",
+              "name": "Vc Travis Lanham",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/3708",
+              "name": "Carlos Lopez",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14104",
+              "name": "Steve Orlando",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13046",
+              "name": "Alanna Smith",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 19,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123188/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1017575",
+              "name": "Captain America (Sam Wilson)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1010338",
+              "name": "Captain Marvel (Carol Danvers)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1011072",
+              "name": "Edwin Jarvis"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009288",
+              "name": "Elektra"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009338",
+              "name": "Hawkeye"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009343",
+              "name": "Hercules"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1010854",
+              "name": "Living Lightning"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1010684",
+              "name": "Night Thrasher"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1011045",
+              "name": "Photon"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009562",
+              "name": "Scarlet Witch"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009577",
+              "name": "Shang-Chi"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009583",
+              "name": "She-Hulk (Jennifer Walters)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009629",
+              "name": "Storm"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009680",
+              "name": "Tyrannus"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009697",
+              "name": "Vision"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009707",
+              "name": "Wasp"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009719",
+              "name": "Wonder Man"
+            }
+          ],
+          "returned": 19
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123188/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/267607",
+              "name": "cover from Astonishing Avengers Infinity Comic (2025) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/267608",
+              "name": "story from Astonishing Avengers Infinity Comic (2025) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/123188/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 124205,
+        "digitalId": 71186,
+        "title": "Marvel Rivals Infinity Comic (2024) #4",
+        "issueNumber": 4,
+        "variantDescription": "",
+        "description": "SAY HELLO TO SQUIRREL GIRL!  Galacta has made a nutty play to shake up the board as both teams battle to save the Web of Life, bringing Squirrel Girl into the mix!",
+        "modified": "2025-04-14T13:46:54+0000",
+        "isbn": "",
+        "upc": "75960621173900411",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 6,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/124205",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/124205/marvel_rivals_infinity_comic_2024_4?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Marvel-Rivals-Infinity-Comic-4/digital-comic/71186?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=71186&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/42891",
+          "name": "Marvel Rivals Infinity Comic (2024 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2025-01-06T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2024-12-09T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2025-01-06T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-01-06T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/80/67605aedb5cc8",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/80/67605aedb5cc8",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/124205/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12854",
+              "name": "Paul Allor",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14804",
+              "name": "Luca Claretti",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13946",
+              "name": "DEE CUNNIFFE",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12974",
+              "name": "Vc Joe Sabino",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14311",
+              "name": "Jordan White",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 8,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/124205/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1017854",
+              "name": "Luna Snow (Luna Snow)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009466",
+              "name": "Namor"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man (Peter Parker)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1010860",
+              "name": "Squirrel Girl"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1017852",
+              "name": "Sword Master (Sword Master)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009718",
+              "name": "Wolverine"
+            }
+          ],
+          "returned": 8
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/124205/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/269641",
+              "name": "cover from Marvel Rivals Infinity Comic (2024) #4",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/269642",
+              "name": "story from Marvel Rivals Infinity Comic (2024) #4",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/124205/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 124203,
+        "digitalId": 71184,
+        "title": "Marvel Rivals Infinity Comic (2024) #2",
+        "issueNumber": 2,
+        "variantDescription": "",
+        "description": "THE TIME RIFT MAKES RIVALS OF US ALL!  The battle for the Web of Life is underway! With Peni Parker and Spider-Man both leading their teams against each other, who’s paying attention to Jeff the Land Shark?",
+        "modified": "2025-04-14T13:51:02+0000",
+        "isbn": "",
+        "upc": "75960621173900211",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 6,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/124203",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/124203/marvel_rivals_infinity_comic_2024_2?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Marvel-Rivals-Infinity-Comic-2/digital-comic/71184?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=71184&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/42891",
+          "name": "Marvel Rivals Infinity Comic (2024 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2024-12-23T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2024-11-25T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2024-12-23T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2024-12-23T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/00/67605cbd3a998",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/00/67605cbd3a998",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/124203/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12854",
+              "name": "Paul Allor",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14804",
+              "name": "Luca Claretti",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13946",
+              "name": "DEE CUNNIFFE",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12974",
+              "name": "Vc Joe Sabino",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14311",
+              "name": "Jordan White",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 10,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/124203/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009167",
+              "name": "Bruce Banner"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009282",
+              "name": "Doctor Strange"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1017854",
+              "name": "Luna Snow (Luna Snow)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009466",
+              "name": "Namor"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man (Peter Parker)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1017852",
+              "name": "Sword Master (Sword Master)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009664",
+              "name": "Thor"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009718",
+              "name": "Wolverine"
+            }
+          ],
+          "returned": 10
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/124203/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/269637",
+              "name": "cover from Marvel Rivals Infinity Comic (2024) #2",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/269638",
+              "name": "story from Marvel Rivals Infinity Comic (2024) #2",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/124203/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 119381,
+        "digitalId": 69879,
+        "title": "Captain America (2023) #16",
+        "issueNumber": 16,
+        "variantDescription": "",
+        "description": " \"THE NEW WARRIORS THREE\" PART THREE! Captain America, Spider-Man and Thor are trapped in a mirror dimension harboring Broxton's glory days - and ghosts of Thor's failures are ready to exact their revenge. Can Cap and Spidey help free Thor of his past, or is Broxton's history doomed to repeat itself forever?",
+        "modified": "2024-11-01T17:07:18+0000",
+        "isbn": "",
+        "upc": "75960620740401611",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/119381",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/119381/captain_america_2023_16?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Captain-America-16/digital-comic/69879?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=69879&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/37724",
+          "name": "Captain America (2023 - Present)"
+        },
+        "variants": [
+          {
+            "resourceURI": "https://gateway.marvel.com/v1/public/comics/124317",
+            "name": "Captain America (2023) #16 (Variant)"
+          },
+          {
+            "resourceURI": "https://gateway.marvel.com/v1/public/comics/124731",
+            "name": "Captain America (2023) #16 (Variant)"
+          }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2024-12-18T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2024-11-11T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2024-12-05T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2024-12-05T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 4.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/90/676039c56aa81",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/90/676039c56aa81",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 6,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/119381/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/5251",
+              "name": "Vc Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14111",
+              "name": "Taurin Clarke",
+              "role": "penciler (cover)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13674",
+              "name": "Espen Grundetjern",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/1005",
+              "name": "Carlos Magno",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13046",
+              "name": "Alanna Smith",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/4",
+              "name": "J. Michael Straczynski",
+              "role": "writer"
+            }
+          ],
+          "returned": 6
+        },
+        "characters": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/119381/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009664",
+              "name": "Thor"
+            }
+          ],
+          "returned": 2
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/119381/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/259986",
+              "name": "cover from Captain America (2023) #16",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/259987",
+              "name": "story from Captain America (2023) #16",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/119381/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 124202,
+        "digitalId": 71183,
+        "title": "Marvel Rivals Infinity Comic (2024) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "INTRODUCING MARVEL RIVALS – THE COMIC!  The time rift has disrupted the Web of Life and Destiny, leaving two teams led by Peni Parker and Spider-Man to battle it out over the best way to fix it!",
+        "modified": "2025-04-14T13:52:39+0000",
+        "isbn": "",
+        "upc": "75960621173900111",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Digital Vertical Comic",
+        "pageCount": 6,
+        "textObjects": [],
+        "resourceURI": "https://gateway.marvel.com/v1/public/comics/124202",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/124202/marvel_rivals_infinity_comic_2024_1?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Marvel-Rivals-Infinity-Comic-1/digital-comic/71183?utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=71183&utm_campaign=apiRef&utm_source=edc9531ea872c74a2855ed93a5903229"
+          }
+        ],
+        "series": {
+          "resourceURI": "https://gateway.marvel.com/v1/public/series/42891",
+          "name": "Marvel Rivals Infinity Comic (2024 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2024-12-16T00:00:00+0000"
+          },
+          {
+            "type": "focDate",
+            "date": "2024-11-18T00:00:00+0000"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2024-12-16T00:00:00+0000"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2025-01-17T00:00:00+0000"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/30/6717aafacf0f5",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/30/6717aafacf0f5",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 5,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/124202/creators",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12854",
+              "name": "Paul Allor",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14804",
+              "name": "Luca Claretti",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/13946",
+              "name": "DEE CUNNIFFE",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/12974",
+              "name": "Vc Joe Sabino",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/creators/14311",
+              "name": "Jordan White",
+              "role": "editor"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 9,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/124202/characters",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009167",
+              "name": "Bruce Banner"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009220",
+              "name": "Captain America"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009282",
+              "name": "Doctor Strange"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1017854",
+              "name": "Luna Snow (Luna Snow)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009466",
+              "name": "Namor"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man (Peter Parker)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1017852",
+              "name": "Sword Master (Sword Master)"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009664",
+              "name": "Thor"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/characters/1009718",
+              "name": "Wolverine"
+            }
+          ],
+          "returned": 9
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/124202/stories",
+          "items": [
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/269635",
+              "name": "cover from Marvel Rivals Infinity Comic (2024) #1",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "https://gateway.marvel.com/v1/public/stories/269636",
+              "name": "story from Marvel Rivals Infinity Comic (2024) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "https://gateway.marvel.com/v1/public/comics/124202/events",
+          "items": [],
+          "returned": 0
+        }
+      }
+    ]
+  }
+}

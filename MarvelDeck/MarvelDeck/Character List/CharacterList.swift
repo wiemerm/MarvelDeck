@@ -23,7 +23,7 @@ struct CharacterList: View {
                         NavigationLink {
                             CharacterDetailView(character: character)
                         } label: {
-                            CharacterGridItem(
+                            ThumbnailGridItem(
                                 name: character.name,
                                 thumbnailURL: character.thumbnailURL,
                                 dimensions: itemWidth

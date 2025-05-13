@@ -7,16 +7,17 @@
 
 import Foundation
 
-struct ComicCharacter: Decodable, Identifiable, Equatable {
-    struct Thumbnail: Decodable, Equatable {
-        let path: String
-        let fileExtension: String
+struct Thumbnail: Decodable, Equatable {
+    let path: String
+    let fileExtension: String
 
-        enum CodingKeys: String, CodingKey {
-            case path = "path"
-            case fileExtension = "extension"
-        }
+    enum CodingKeys: String, CodingKey {
+        case path = "path"
+        case fileExtension = "extension"
     }
+}
+
+struct ComicCharacter: Decodable, Identifiable, Equatable {
 
     let id: Int
     let name: String
@@ -51,12 +52,12 @@ extension ComicCharacter {
     }
 }
 
-extension ComicCharacter.Thumbnail {
+extension Thumbnail {
     static func mock(
         path: String = "http://i.annihil.us/u/prod/marvel/i/mg/3/50/537ba56d31087",
         fileExtension: String = "jpg"
-    ) -> ComicCharacter.Thumbnail {
-        ComicCharacter.Thumbnail(
+    ) -> Thumbnail {
+        Thumbnail(
             path: path,
             fileExtension: fileExtension
         )

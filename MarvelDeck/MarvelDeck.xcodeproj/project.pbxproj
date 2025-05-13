@@ -27,6 +27,7 @@
 		637942992DD39BFE0081907D /* MarvelDeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		637942A92DD39BFF0081907D /* MarvelDeckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelDeckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		637942B32DD39BFF0081907D /* MarvelDeckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelDeckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B829A02DD3CFFE0099B65B /* MarvelDeck.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MarvelDeck.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +89,7 @@
 		637942902DD39BFE0081907D = {
 			isa = PBXGroup;
 			children = (
+				63B829A02DD3CFFE0099B65B /* MarvelDeck.xctestplan */,
 				6379429B2DD39BFE0081907D /* MarvelDeck */,
 				637942AC2DD39BFF0081907D /* MarvelDeckTests */,
 				637942B62DD39BFF0081907D /* MarvelDeckUITests */,
