@@ -47,7 +47,15 @@ struct CharacterDetailView: View {
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {
                 Button(action: { dismiss() }, label: {
-                    Label("", systemImage: "chevron.backward")
+                    Image(systemName: "chevron.backward")
+                })
+                .tint(.black)
+            }
+
+            ToolbarItem(placement: .topBarTrailing) {
+                Button(action: { print("Suppose some additional actions will go here")
+                }, label: {
+                    Image(systemName: "ellipsis")
                 })
                 .tint(.black)
             }
