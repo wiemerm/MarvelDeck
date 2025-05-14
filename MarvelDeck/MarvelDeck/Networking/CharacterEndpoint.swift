@@ -11,15 +11,15 @@ import Foundation
 enum CharacterEndpoint: Endpoint {
     case characters(offset: Int)
     case character(id: Int)
-    case comics(characterID: Int)
-    case events(characterID: Int)
+    case comics(characterID: Int, offset: Int)
+    case events(characterID: Int, offset: Int)
 
     var path: String {
         switch self {
         case .characters:              "/v1/public/characters"
         case .character(let id):       "/v1/public/characters/\(id)"
-        case .comics(let characterID): "/v1/public/characters/\(characterID)/comics"
-        case .events(let characterID): "/v1/public/characters/\(characterID)/events"
+        case .comics(let characterID, _): "/v1/public/characters/\(characterID)/comics"
+        case .events(let characterID, _): "/v1/public/characters/\(characterID)/events"
         }
     }
 
@@ -47,6 +47,7 @@ enum CharacterEndpoint: Endpoint {
 
         switch self {
         case .characters(let offset): queryItems.append(URLQueryItem(name: "offset", value: String(offset)))
+        case .comics(_, let offset), .events(_, let offset): queryItems.append(URLQueryItem(name: "offset", value: String(offset)))
         default: break
         }
 

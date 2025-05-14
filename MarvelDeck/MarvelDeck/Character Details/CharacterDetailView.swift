@@ -11,14 +11,13 @@ struct CharacterDetailView: View {
     @Environment(\.dismiss) var dismiss
     @ObservedObject private var viewModel: CharacterDetailViewModel
 
-    private let columns = Array(repeating: GridItem(.flexible(minimum: 120, maximum: 140), spacing: 4), count: 3)
-
     var body: some View {
         GeometryReader { geo in
             let totalSpacing: CGFloat = 8
             let itemWidth = abs(geo.size.width - totalSpacing) / 3
             VStack(spacing: 0) {
                 CharacterHeaderView()
+                    .padding(.bottom, 48)
 
                 Segmented(
                     index: $viewModel.selectedTab,
@@ -27,20 +26,20 @@ struct CharacterDetailView: View {
                         (text: "\(viewModel.eventsCount)", systemImageName: "desktopcomputer")
                     ]
                 )
-                .padding(.bottom, 24)
-                .padding(.top, 48)
 
                 ScrollView {
-                    LazyVGrid(columns: columns, spacing: 20) {
-                        ForEach(viewModel.gridData) { item in
-                            ThumbnailGridItem(
-                                name: nil,
-                                thumbnailURL: item.thumbnailURL,
-                                dimensions: itemWidth
-                            )
-                        }
+                    if viewModel.selectedTab == 0 {
+                        ThumbnailGridView(data: viewModel.comics, itemWidth: itemWidth, loadingHandler: viewModel.loadMore)
+                    } else {
+                        ThumbnailGridView(data: viewModel.events, itemWidth: itemWidth, loadingHandler: viewModel.loadMore)
+                    }
+
+                    if viewModel.isLoading {
+                        ProgressView()
                     }
                 }
+                .padding(.top, 24)
+
             }
             .background(Color(.systemGray6))
         }

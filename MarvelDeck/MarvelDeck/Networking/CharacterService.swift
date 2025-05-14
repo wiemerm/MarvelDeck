@@ -9,8 +9,8 @@ import Foundation
 
 protocol CharacterServiceProtocol {
     func fetchCharactersList(offset: Int) async throws -> [ComicCharacter]
-    func fetchComics(for characterID: Int) async throws -> [Comic]
-    func fetchEvents(for characterID: Int) async throws -> [Comic]
+    func fetchComics(for characterID: Int, offset: Int) async throws -> ComicData
+    func fetchEvents(for characterID: Int, offset: Int) async throws -> ComicData
 }
 
 struct CharacterService: CharacterServiceProtocol {
@@ -25,13 +25,13 @@ struct CharacterService: CharacterServiceProtocol {
         return response.data.results
     }
 
-    func fetchComics(for characterID: Int) async throws -> [Comic] {
-        let response: ComicResponse = try await apiClient.fetch(CharacterEndpoint.comics(characterID: characterID))
-        return response.data.results
+    func fetchComics(for characterID: Int, offset: Int) async throws -> ComicData {
+        let response: ComicResponse = try await apiClient.fetch(CharacterEndpoint.comics(characterID: characterID, offset: offset))
+        return response.data
     }
 
-    func fetchEvents(for characterID: Int) async throws -> [Comic] {
-        let response: ComicResponse = try await apiClient.fetch(CharacterEndpoint.events(characterID: characterID))
-        return response.data.results
+    func fetchEvents(for characterID: Int, offset: Int) async throws -> ComicData {
+        let response: ComicResponse = try await apiClient.fetch(CharacterEndpoint.events(characterID: characterID, offset: offset))
+        return response.data
     }
 }

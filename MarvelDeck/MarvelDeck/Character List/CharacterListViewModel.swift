@@ -17,11 +17,11 @@ class CharacterListViewModel: ObservableObject {
         self.characterService = characterService
     }
 
-    func loadCharacterList(_ offset: Int = 0) {
+    func loadCharacterList() {
         Task { @MainActor in
             do {
                 isLoading = true
-                let results = try await characterService.fetchCharactersList(offset: offset)
+                let results = try await characterService.fetchCharactersList(offset: characters.count)
                 characters.append(contentsOf: results)
                 isLoading = false
             } catch {
@@ -37,6 +37,6 @@ class CharacterListViewModel: ObservableObject {
             return
         }
 
-        loadCharacterList(characters.count)
+        loadCharacterList()
     }
 }
