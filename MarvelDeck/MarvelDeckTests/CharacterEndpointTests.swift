@@ -11,12 +11,12 @@ import XCTest
 
 final class CharacterEndpointTests: XCTestCase {
     func test_charactersEndpoint() async throws {
-        let endpoint = CharacterEndpoint.characters
+        let endpoint = CharacterEndpoint.characters(offset: 0)
         let queryItemNames = endpoint.queryItems.compactMap { $0.name }
         XCTAssertEqual(endpoint.scheme, "https")
         XCTAssertEqual(endpoint.baseURL, EnvironmentVariables.baseURL)
         XCTAssertEqual(endpoint.path, "/v1/public/characters")
-        XCTAssertEqual(endpoint.queryItems.count, 3)
+        XCTAssertEqual(endpoint.queryItems.count, 4)
         XCTAssertTrue(queryItemNames.contains("ts"))
         XCTAssertTrue(queryItemNames.contains("apikey"))
         XCTAssertTrue(queryItemNames.contains("hash"))

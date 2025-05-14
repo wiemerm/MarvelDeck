@@ -8,7 +8,7 @@
 import Foundation
 
 protocol CharacterServiceProtocol {
-    func fetchCharactersList() async throws -> [ComicCharacter]
+    func fetchCharactersList(offset: Int) async throws -> [ComicCharacter]
     func fetchComics(for characterID: Int) async throws -> [Comic]
     func fetchEvents(for characterID: Int) async throws -> [Comic]
 }
@@ -20,8 +20,8 @@ struct CharacterService: CharacterServiceProtocol {
         self.apiClient = apiClient
     }
 
-    func fetchCharactersList() async throws -> [ComicCharacter] {
-        let response: CharacterResponse = try await apiClient.fetch(CharacterEndpoint.characters)
+    func fetchCharactersList(offset: Int) async throws -> [ComicCharacter] {
+        let response: CharacterResponse = try await apiClient.fetch(CharacterEndpoint.characters(offset: offset))
         return response.data.results
     }
 

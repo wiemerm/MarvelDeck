@@ -18,8 +18,12 @@ class MockCharacterService: CharacterServiceProtocol {
     private(set) var fetchComicsCallCount = 0
     private(set) var fetchEventsCallCount = 0
 
-    func fetchCharactersList() async throws -> [ComicCharacter] {
+    private(set) var offsetArg: Int?
+    private(set) var characterIDArg: Int?
+
+    func fetchCharactersList(offset: Int) async throws -> [ComicCharacter] {
         fetchCharactersCallCount += 1
+        offsetArg = offset
 
         if let charactersToReturn {
             return charactersToReturn
@@ -32,6 +36,7 @@ class MockCharacterService: CharacterServiceProtocol {
 
     func fetchComics(for characterID: Int) async throws -> [Comic] {
         fetchComicsCallCount += 1
+        characterIDArg = characterID
 
         if let comicsToReturn {
             return comicsToReturn
@@ -44,6 +49,7 @@ class MockCharacterService: CharacterServiceProtocol {
 
     func fetchEvents(for characterID: Int) async throws -> [Comic] {
         fetchEventsCallCount += 1
+        characterIDArg = characterID
 
         if let eventsToReturn {
             return eventsToReturn

@@ -28,8 +28,15 @@ struct CharacterList: View {
                                 thumbnailURL: character.thumbnailURL,
                                 dimensions: itemWidth
                             )
+                            .onAppear {
+                                viewModel.fetchMoreCharactersIfNeeded(character)
+                            }
                         }
                     }
+                }
+
+                if viewModel.isLoading {
+                    ProgressView()
                 }
             }
             .onAppear {

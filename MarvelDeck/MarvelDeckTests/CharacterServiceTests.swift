@@ -20,12 +20,13 @@ final class CharacterServiceTests: XCTestCase {
     func test_fetchCharactersList_callsThroughToClient() async throws {
         let expected = Array(repeating: ComicCharacter.mock(), count: Int.random(in: 1..<10))
         let response = CharacterResponse.mock(data: CharacterData.mock(results: expected))
+        let offset = Int.random(in: 1..<10)
         mockAPIClient.responseToReturn = response
 
-        let characters = try await service.fetchCharactersList()
+        let characters = try await service.fetchCharactersList(offset: offset)
 
         XCTAssertEqual(mockAPIClient.fetchCallCount, 1)
-        XCTAssertEqual(mockAPIClient.endpointArg?.path, CharacterEndpoint.characters.path)
+        XCTAssertEqual(mockAPIClient.endpointArg?.path, CharacterEndpoint.characters(offset: offset).path)
         XCTAssertEqual(characters.count, expected.count)
         XCTAssertEqual(characters, expected)
     }
